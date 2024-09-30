@@ -130,9 +130,6 @@ function wp_bootstrap_starter_scripts() {
 
     wp_enqueue_style( 'host2media-swiper', get_template_directory_uri() . '/inc/assets/css/swiper.min.css' );
 
-    if (is_front_page()) {
-        // wp_enqueue_style( 'host2media-animate_headlines', get_template_directory_uri() . '/inc/assets/css/animate_headlines.css' );
-    }
     wp_enqueue_style( 'host2media-custom_style', get_template_directory_uri() . '/inc/assets/css/custom_style.css', array(), '1.39' );
     wp_enqueue_style( 'host2media-responsive_style', get_template_directory_uri() . '/inc/assets/css/responsive.css', array(), '1.39' );
 
@@ -150,12 +147,8 @@ function wp_bootstrap_starter_scripts() {
     // Add all custom js libraries here
     wp_enqueue_script('host2media-swiper-js', get_template_directory_uri() . '/inc/assets/js/swiper.min.js', array(), '1', true );
 
-    // query loader
-    wp_enqueue_script('queryloader2-js', get_template_directory_uri() . '/inc/assets/js/queryloader2.min.js', array(), '1', true );
     // jquery visibale
     wp_enqueue_script('queryvisible-js', get_template_directory_uri() . '/inc/assets/js/jquery.visible.js', array(), '1', true );
-    // wp_enqueue_script('wp-bootstrap-starter-themejs', get_template_directory_uri() . '/inc/assets/js/theme-script.js', array(), '', true );
-	wp_enqueue_script( 'wp-bootstrap-starter-skip-link-focus-fix', get_template_directory_uri() . '/inc/assets/js/skip-link-focus-fix.min.js', array(), '20151215', true );
 
 }
 add_action( 'wp_enqueue_scripts', 'wp_bootstrap_starter_scripts' );
@@ -187,10 +180,9 @@ function TimeIsBetweenTwoTimes($from, $till, $input) {
     return ($f <= $i && $i <= $t) || ($f <= $i->modify('+1 day') && $i <= $t);
 }
 
-// Add backend styles for Gutenberg.
-add_action('enqueue_block_editor_assets', 'gutenberg_editor_assets');
-
 function gutenberg_editor_assets() {
   // Load the theme styles within Gutenberg.
   wp_enqueue_style('my-gutenberg-editor-styles', get_theme_file_uri('/assets/gutenberg-editor-styles.css'), FALSE);
 }
+// Add backend styles for Gutenberg.
+add_action('enqueue_block_editor_assets', 'gutenberg_editor_assets');

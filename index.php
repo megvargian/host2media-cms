@@ -3,12 +3,9 @@
  * Template Name: Homepage
  */
 
-get_header(); 
-?>
-    <?php
-        while ( have_posts() ) : the_post();
-            the_content();
-        endwhile; 
-    ?>
-<?php
+get_header();
+while ( have_posts() ) : the_post();
+    the_content();
+endwhile;
+echo 'test';
 get_footer();

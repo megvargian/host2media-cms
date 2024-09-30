@@ -8,10 +8,6 @@
  *
  * @package WP_Bootstrap_Starter
  */
-
-$header_fields = get_field('logo', 'options');
-$white_logo = get_field('white_logo', 'options');
-$social_media = get_field('social_media', 'options');
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
