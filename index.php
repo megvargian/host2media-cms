@@ -73,10 +73,11 @@ echo 'Request as reseller: ' . $connection_details['reseller_username'] . "\n" .
 
 echo "Response\n";
 echo $response . "\n";
-$response = simplexml_load_string($xml_data, "SimpleXMLElement", LIBXML_NOCDATA);
+$response_string = simplexml_load_string($xml, "SimpleXMLElement", LIBXML_NOCDATA);
 
 // Step 2: Convert the SimpleXMLElement object to JSON
-$json = json_encode($xml);
+$json = json_encode($response_string);
 
 // Output the JSON
 echo $json;
+echo '<pre>'; print_r($json); echo '</pre>';
