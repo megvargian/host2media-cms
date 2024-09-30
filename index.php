@@ -79,4 +79,4 @@ $response = simplexml_load_string($xml_data, "SimpleXMLElement", LIBXML_NOCDATA)
 $json = json_encode($xml);
 
 // Output the JSON
-echo '<pre>'; print_r($json); echo '</pre>';
+echo $json;
