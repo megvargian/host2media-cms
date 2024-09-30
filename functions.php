@@ -194,4 +194,3 @@ function gutenberg_editor_assets() {
   // Load the theme styles within Gutenberg.
   wp_enqueue_style('my-gutenberg-editor-styles', get_theme_file_uri('/assets/gutenberg-editor-styles.css'), FALSE);
 }
-?>
