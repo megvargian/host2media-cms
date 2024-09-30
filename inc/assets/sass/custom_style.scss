@@ -15,7 +15,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav,
 output, ruby, section, summary,
-time, mark, audio, video,h1,h2,h3,p	           
+time, mark, audio, video,h1,h2,h3,p
 										{ margin: 0;
 										  padding: 0;
 										  border: 0;
@@ -54,7 +54,7 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
 	margin-bottom: 12px;
 }
 input, textarea {
-	box-shadow: none !important; 
+	box-shadow: none !important;
 	border-radius: 0;
 
 }
@@ -80,27 +80,25 @@ body.hide_scroll{
 // Helper Classes
 .float-left								{ float: left !important;}
 .float-right							{ float: right !important;}
-.clear 									{ clear: both;}                                        
+.clear 									{ clear: both;}
 .upper									{ text-transform: uppercase;}
-.lower 									{ text-transform: lowercase !important;}			
+.lower 									{ text-transform: lowercase !important;}
 .posrel  								{ position:relative}
-.posabs  								{ position:absolute}			
+.posabs  								{ position:absolute}
 .mar0auto  								{ margin:0 auto}
 .text-left								{ text-align: left;}
 .text-right								{ text-align: right;}
 .no-padding								{ padding-left: 0px; padding-right: 0px;}
 .no-margin								{ margin-left: 0px; margin-right: 0px;}
-.maze_o									{ color: #ff9600;}
-.maze_b									{ color: #000;}
 .text_main_color						{ color: $main_color;}
 
 // end
 .noselect {
-	-webkit-touch-callout: none; 
+	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
-	-ms-user-select: none; 
+	-ms-user-select: none;
 	user-select: none;
 }
 ::-moz-selection { /* Code for Firefox */
@@ -165,7 +163,7 @@ header{
 .header-style{
 	float: right;
 	ul {
-		display: flex;	
+		display: flex;
 	}
 	a{
 	    display: inline-block;
@@ -192,7 +190,7 @@ header{
 		background-color: #000;
 		transform: translateX(-50%) scaleY(1);
 	}
-	.project_active {		
+	.project_active {
 		a.active::before{
 		background-color: $main_color;
 		transform: translateX(-50%) scaleY(1);
@@ -510,7 +508,7 @@ p strong{
 		}
 	}
 
-	
+
 }
 
 
@@ -530,7 +528,7 @@ p strong{
 	.background_img{
 		height: 400px;
 		position: relative;
-	}	
+	}
 }
 
 .third_section{
@@ -599,7 +597,7 @@ p strong{
 			}
 		}
 	}
-	
+
 }
 
 .fourth_section{
@@ -654,7 +652,7 @@ p strong{
 						padding: 0.3rem 1.5rem;
 						border: none;
 					}
-					
+
 					.button_border{
 						text-align: center;
 						border-right: 1px solid #D3D3D3;
@@ -664,8 +662,8 @@ p strong{
 						margin: 5px 0;
 					}
 				}
-				
-			}	
+
+			}
 		}
 	}
 	.buttonstyle_white{
@@ -735,7 +733,7 @@ p strong{
 }
 .copyright_text {
 	font-size: 0.8rem;
-	color: #fff;	  
+	color: #fff;
 }
 
 .copyright_text a {
@@ -770,7 +768,7 @@ p strong{
 	  animation: fa-beat 1.2s ease infinite;
 	  display: inline-block;
 	  padding: 0px 5px 0px 4px;
-	  color: $main_color; 
+	  color: $main_color;
 }
 
 .social_links{
@@ -778,11 +776,11 @@ p strong{
 	img{
 		width: 20px;
 		vertical-align: middle;
-		display: inline;	
+		display: inline;
 	}
 	a:last-child{
 		padding-left: 0.5rem;
-	} 
+	}
 }
 
 
@@ -804,31 +802,31 @@ p strong{
 // 	background-color: transparent;
 // 	border: 0;
 // 	margin: 0;
-// 	overflow: visible; 
+// 	overflow: visible;
 // 	line-height: 0;
 // }
 // 	.hamburger:hover {
-// 		opacity: 1; 
+// 		opacity: 1;
 // 	}
 // 	.hamburger.is-active:hover {
-// 		opacity: 1; 
+// 		opacity: 1;
 // 	}
 // 	.hamburger.is-active .hamburger-inner,
 // 	.hamburger.is-active .hamburger-inner::before,
 // 	.hamburger.is-active .hamburger-inner::after {
-// 		background-color: #000; 
+// 		background-color: #000;
 // 	}
 // .hamburger-box {
 // 	width: 40px;
 // 	height: 24px;
 // 	display: inline-block;
-// 	position: relative; 
+// 	position: relative;
 // }
 
 // .hamburger-inner {
 // 	display: block;
 // 	top: 50%;
-// 	margin-top: -2px; 
+// 	margin-top: -2px;
 // }
 // 	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
 // 		width: 25px;
@@ -838,27 +836,27 @@ p strong{
 // 		position: absolute;
 // 		transition-property: transform;
 // 		transition-duration: 0.15s;
-// 		transition-timing-function: ease; 
+// 		transition-timing-function: ease;
 // 	}
 // 	.hamburger-inner::before, .hamburger-inner::after {
 // 		content: "";
-// 		display: block; 
+// 		display: block;
 // 	}
 // 	.hamburger-inner::before {
-// 		top: -6px; 
+// 		top: -6px;
 // 	}
 // 	.hamburger-inner::after {
-// 		bottom: -6px; 
+// 		bottom: -6px;
 // 	}
 
 // /*
 //  * Arrow
 //  */
 // .hamburger--arrow.is-active .hamburger-inner::before {
-// 	transform: translate3d(-8px, 0, 0) rotate(-45deg) scale(0.7, 1); 
+// 	transform: translate3d(-8px, 0, 0) rotate(-45deg) scale(0.7, 1);
 // }
 // .hamburger--arrow.is-active .hamburger-inner::after {
-// 	transform: translate3d(-8px, 0, 0) rotate(45deg) scale(0.7, 1); 
+// 	transform: translate3d(-8px, 0, 0) rotate(45deg) scale(0.7, 1);
 // }
 
 .hamburger{
@@ -976,11 +974,11 @@ p strong{
 	.btn_404:hover::after, .btn_404:active:after{
 		height: 100%;
 	}
-	
+
 }
 // end of 404 layout classes
 
-// mobile menu 
+// mobile menu
 .mobile_menu{
 	display: none;
 }
@@ -1061,7 +1059,7 @@ p strong{
 		padding-bottom: 5rem;
 		padding-top: 0;
 	}
-	
+
 	.background_img{
 		height: 580px;
 	}
@@ -1164,7 +1162,7 @@ p strong{
 	}
 }
 
-// team structure 
+// team structure
 
 .team_structure_second_section{
 	.h2_style{
@@ -1336,7 +1334,7 @@ p strong{
 	}
 }
 
-// contact us Page 
+// contact us Page
 
 .main_contact_us{
 	padding: 0;
@@ -1457,8 +1455,8 @@ p strong{
 		height: 15px;
 		margin-left: 1rem;
 	}
-	
-	
+
+
 	// end of common classes
 	.category_dropdown{
 		display: flex;
@@ -1582,7 +1580,7 @@ p strong{
 						padding: 0.3rem 1.5rem;
 						border: none;
 					}
-					
+
 					.button_border{
 						text-align: center;
 						border-right: 1px solid #D3D3D3;
@@ -1592,11 +1590,11 @@ p strong{
 						margin: 5px 0;
 					}
 				}
-				
-			}	
+
+			}
 		}
 	}
-	
+
 	.list{
 		display: flex;
 		justify-content: end;
@@ -1649,11 +1647,11 @@ p strong{
 			}
 		}
 	}
-	
+
 }
 
 
-// single project 
+// single project
 
 .single_project{
 	padding: 5rem 0;
@@ -1683,7 +1681,7 @@ p strong{
 		height: 550px;
 		object-fit: cover;
 	}
-	//swiper active bullet 
+	//swiper active bullet
 	.swiper-pagination-bullet-active{
 		color: #fff !important;
 		background-color: #fff !important;
@@ -1756,7 +1754,7 @@ p strong{
 						padding: 0.3rem 1.5rem;
 						border: none;
 					}
-					
+
 					.button_border{
 						text-align: center;
 						border-right: 1px solid #D3D3D3;
@@ -1766,8 +1764,8 @@ p strong{
 						margin: 5px 0;
 					}
 				}
-				
-			}	
+
+			}
 		}
 	}
 }
