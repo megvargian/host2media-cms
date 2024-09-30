@@ -20,8 +20,8 @@ $connection_options = [
     ],
     'test' => [
         'api_host_port' => 'https://horizon.opensrs.net:55443',
-        'api_key' => '3c23da2619baa5b883e5c98e717c61104c64025919a058304b0e55f2587ec3ec8883231e21eb85ef7a94dc5fcd53aac4a9a0ad2b6ac3e250',
-        'reseller_username' => 'host2media'
+        'api_key' => '09310c1df9fc9e782f45eb770eb6d174407c573e0f565e9bf406d1dfe74d23ca56049f7f3a1cad1fa1155fa250e1c6f4980e4649f9b34fa7',
+        'reseller_username' => 'whmcsh2m'
     ]
 ];
 
