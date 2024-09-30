@@ -69,11 +69,11 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $xml);
 
 $response = curl_exec($ch);
 
-echo 'Request as reseller: ' . $connection_details['reseller_username'] . "\n" .  $xml . "\n";
+// echo 'Request as reseller: ' . $connection_details['reseller_username'] . "\n" .  $xml . "\n";
 
 echo "Response\n";
 echo $response . "\n";
-$response_string = simplexml_load_string($xml, "SimpleXMLElement", LIBXML_NOCDATA);
+$response_string = simplexml_load_string($response, "SimpleXMLElement", LIBXML_NOCDATA);
 
 // Step 2: Convert the SimpleXMLElement object to JSON
 $json = json_encode($response_string);
