@@ -16,7 +16,7 @@ $connection_options = [
     'live' => [
         'api_host_port' => 'https://rr-n1-tor.opensrs.net:55443',
         'api_key' => '09310c1df9fc9e782f45eb770eb6d174407c573e0f565e9bf406d1dfe74d23ca56049f7f3a1cad1fa1155fa250e1c6f4980e4649f9b34fa7',
-        'reseller_username' => 'host2media'
+        'reseller_username' => 'whmcs'
     ],
     'test' => [
         'api_host_port' => 'https://horizon.opensrs.net:55443',
