@@ -30,7 +30,7 @@
 					'Content-Type': 'application/json',
 				},
 				body: JSON.stringify({
-					domain_name: 'wastil.com'
+					domain_name: 'host2media.com'
 				})
 			})
 			.then(response => response.json())
