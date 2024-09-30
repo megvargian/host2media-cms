@@ -81,3 +81,6 @@ $json = json_encode($response_string);
 // Output the JSON
 echo $json;
 echo '<pre>'; print_r($json); echo '</pre>';
+$array = json_decode($json, true); // Passing true converts it into an associative array
+// Output the array
+echo '<pre>'; print_r($array); echo '</pre>';

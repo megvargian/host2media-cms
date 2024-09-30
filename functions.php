@@ -186,3 +186,34 @@ function gutenberg_editor_assets() {
 }
 // Add backend styles for Gutenberg.
 add_action('enqueue_block_editor_assets', 'gutenberg_editor_assets');
+
+// Add action to initialize the custom API endpoint
+add_action('rest_api_init', function () {
+    register_rest_route('api/v1', '/search-domain/', array(
+        'methods' => 'POST',
+        'callback' => 'search_domain_name',
+        'permission_callback' => '__return_true', // For demonstration purposes, this allows all users. You should restrict this in a real application.
+    ));
+});
+
+// Callback function to handle the POST request
+function search_domain_name(WP_REST_Request $request) {
+    // Get POST data
+    $params = $request->get_json_params(); // Retrieves the JSON body sent in the request
+
+    // Process the data (for example, save to the database, send email, etc.)
+    $domain_name = isset($params['domain_name']) ? sanitize_text_field($params['domain_name']) : '';
+
+    // Here, you would do something with the data (like storing it or processing it)
+
+    // Return a response
+    return rest_ensure_response(
+	array(
+        'status' => 'success',
+        'message' => 'Data received successfully',
+        'data' => array(
+            'name' => $name,
+            'email' => $email
+        )
+    ));
+}
