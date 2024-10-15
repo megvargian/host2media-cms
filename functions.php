@@ -117,7 +117,7 @@ add_action( 'after_setup_theme', 'wp_bootstrap_starter_content_width', 0 );
  */
 function wp_bootstrap_starter_scripts() {
 	// load bootstrap css
-	wp_enqueue_style( 'wp-bootstrap-starter-bootstrap-css', get_template_directory_uri() . '/inc/assets/css/bootstrap.min.css' );
+	// wp_enqueue_style( 'wp-bootstrap-starter-bootstrap-css', get_template_directory_uri() . '/inc/assets/css/bootstrap.min.css' );
 
     // fontawesome cdn
     wp_enqueue_style( 'wp-bootstrap-pro-fontawesome-cdn', get_template_directory_uri() . '/inc/assets/css/font-awsome.css' );
