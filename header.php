@@ -63,7 +63,7 @@
         <NuxtLink to="/">
             <img class="lg:block hidden h-12 w-18" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/logo.svg" />
         </NuxtLink>
-        <ul class="basic-2/4 lg:flex hidden font-medium text-sm xl:text-lg pl-8">
+        <ul class="basic-2/4 lg:flex hidden text-sm xl:text-lg pl-8">
           <li class="mx-2">
             <a class="" href="#"> Domains </a>
           </li>
