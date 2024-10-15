@@ -41,7 +41,9 @@ body {
   margin: 0;
   -webkit-font-smoothing: auto;
 }
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 article,
 aside,
 details,
@@ -205,4 +207,29 @@ table {
 td,
 th {
   padding: 0;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../inc/assets/fonts/Mulish-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mulish-bold';
+  src: url('../inc/assets/fonts/Mulish-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mulish-light';
+  src: url('../inc/assets/fonts/Mulish-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mulish-ExtraBold';
+  src: url('../inc/assets/fonts/Mulish-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mulish-Black';
+  src: url('../inc/assets/fonts/Mulish-Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mulish-SemiBold';
+  src: url('../inc/assets/fonts/Mulish-SemiBold.ttf') format('truetype');
 }

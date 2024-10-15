@@ -1,8 +1,5 @@
 @import 'variables';
 @charset "utf-8";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 // resettting classes
 html, body, div, span, applet,
@@ -369,28 +366,4 @@ overflow: visible;
 	opacity: 1;
 	}
 }
-}
-@font-face {
-  font-family: 'Mulish';
-  src: url('~/assets/fonts/Mulish-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Mulish-bold';
-  src: url('~/assets/fonts/Mulish-Bold.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Mulish-light';
-  src: url('~/assets/fonts/Mulish-Light.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Mulish-ExtraBold';
-  src: url('~/assets/fonts/Mulish-ExtraBold.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Mulish-Black';
-  src: url('~/assets/fonts/Mulish-Black.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Mulish-SemiBold';
-  src: url('~/assets/fonts/Mulish-SemiBold.ttf') format('truetype');
 }
