@@ -12,25 +12,14 @@
  * @package WP_Bootstrap_Starter
  */
 
-get_header(); ?>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<?php
-				while ( have_posts() ) : the_post();
-
-					get_template_part( 'template-parts/content', 'page' );
-
-	                // If comments are open or we have at least one comment, load up the comment template.
-	                if ( comments_open() || get_comments_number() ) :
-	                    comments_template();
-	                endif;
-
-				endwhile; // End of the loop.
-				?>
-			</div>
-		</div>
-	</div>
+get_header();
+?>
+<section class="py-4">
+    <div class="container">
+        <div>
+            <h3 class="text-black text-lg Mulish-Black font-black">New Post</h3>
+        </div>
+    </div>
+</section>
 <?php
 get_footer();
