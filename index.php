@@ -8,10 +8,10 @@ get_header();
 //     the_content();
 // endwhile;
 ?>
-<section class="pt-10">
+<section class="py-5">
     <div class="container mx-auto">
-        <div>
-            <h3 class="text-black text-lg Mulish-SemiBold font-bold">New Post</h3>
+        <div class="flex">
+            <h3 class="text-black text-[1.25rem] Mulish-SemiBold font-bold">New Posts</h3>
             <div class="border-custom"></div>
         </div>
     </div>
