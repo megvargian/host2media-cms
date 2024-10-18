@@ -541,11 +541,11 @@ video {
 .col-span-12 {
   grid-column: span 12 / span 12;
 }
-.col-span-6 {
-  grid-column: span 6 / span 6;
-}
 .col-span-4 {
   grid-column: span 4 / span 4;
+}
+.col-span-6 {
+  grid-column: span 6 / span 6;
 }
 .mx-2 {
   margin-left: 0.5rem;
@@ -629,6 +629,9 @@ video {
 .gap-5 {
   gap: 1.25rem;
 }
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
 .bg-\[\#5564AD\] {
   --tw-bg-opacity: 1;
   background-color: rgb(85 100 173 / var(--tw-bg-opacity));
@@ -637,9 +640,20 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(85 100 173 / var(--tw-bg-opacity));
 }
+.bg-\[\#FFF9F9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 249 249 / var(--tw-bg-opacity));
+}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.p-3 {
+  padding: 0.75rem;
+}
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 .py-12 {
   padding-top: 3rem;
@@ -656,11 +670,17 @@ video {
 .pb-3 {
   padding-bottom: 0.75rem;
 }
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
 .pl-8 {
   padding-left: 2rem;
 }
 .pt-2 {
   padding-top: 0.5rem;
+}
+.text-left {
+  text-align: left;
 }
 .text-center {
   text-align: center;
@@ -674,6 +694,9 @@ video {
 .text-\[0\.75rem\] {
   font-size: 0.75rem;
 }
+.text-\[1\.25rem\] {
+  font-size: 1.25rem;
+}
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -685,14 +708,22 @@ video {
 .font-black {
   font-weight: 900;
 }
+.font-bold {
+  font-weight: 700;
+}
 .font-light {
   font-weight: 300;
 }
-.font-medium {
-  font-weight: 500;
-}
 .font-semibold {
   font-weight: 600;
+}
+.text-\[\#0F132A\] {
+  --tw-text-opacity: 1;
+  color: rgb(15 19 42 / var(--tw-text-opacity));
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -717,9 +748,17 @@ video {
     width: 75px;
   }
 
+  .sm\:p-5 {
+    padding: 1.25rem;
+  }
+
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .sm\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 
   .sm\:text-\[0\.75rem\] {
@@ -745,6 +784,11 @@ video {
 
   .lg\:col-span-6 {
     grid-column: span 6 / span 6;
+  }
+
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .lg\:mr-0 {
