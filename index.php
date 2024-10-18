@@ -175,7 +175,7 @@ get_header();
                 />
             </div>
         </div>
-        <div class="text-left pb-10">
+        <div class="text-left pb-16">
             <button class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold py-4 px-8 Mulish-ExtraBold">
                 Load More
             </button>
