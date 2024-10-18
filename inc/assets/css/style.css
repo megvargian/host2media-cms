@@ -730,6 +730,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(15 19 42 / var(--tw-text-opacity));
 }
+.text-\[\#5564AD\] {
+  --tw-text-opacity: 1;
+  color: rgb(85 100 173 / var(--tw-text-opacity));
+}
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));

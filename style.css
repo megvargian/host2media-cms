@@ -89,6 +89,9 @@ p{
 .Mulish-SemiBold{
   font-family: 'Mulish-SemiBold';
 }
+.Mulish-Regular{
+  font-family: 'Mulish';
+}
 .custom-container{
   max-width: 1124px;
   margin: 0 auto;
