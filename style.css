@@ -370,3 +370,11 @@ overflow: visible;
 	}
 }
 }
+
+.border-custom{
+	height: 1px;
+	width: 100%;
+	background-color: #CDC2C2;
+	margin: auto 0;
+	margin-left: 5px;
+}
