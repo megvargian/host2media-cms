@@ -39,7 +39,7 @@
                   </NuxtLink>
                 </li>
                 <li class="mx-2 Mulish-light text-[0.75rem]">
-                  <a href="#"> Blog </a>
+                  <a href="https://host2media.com"> Host2Media.com </a>
                 </li>
                 <li class="mx-2 Mulish-light text-[0.75rem]">
                   <a href="#"> Knowladge Base </a>
