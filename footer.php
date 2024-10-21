@@ -34,7 +34,7 @@
                         <form action="/">
                             <div>
                                 <label class="font-bold Mulish-bold text-[14px] text-white text-left" for="email">Email</label>
-                                <input class="rounded-md border-1 border-black" type="email" name="email" required>
+                                <input class="rounded-md border-2 border-black py-2 text-black Mulish-regular" type="email" name="email" required>
                                 <button type="submit" class="px-4 py-2 font-bold Mulish-bold text-[14px] text-white text-left">Submit</button>
                             </div>
                         </form>
