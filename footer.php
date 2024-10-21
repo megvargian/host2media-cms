@@ -32,7 +32,7 @@
                         <h4 class="font-black Mulish-Black text-[18px] text-white pb-3">Sign up for our newsletter</h4>
                         <p class="text-base Mulish-light text-white pb-5">Subscribe to our newsletter to stay informed about the latest Host2Media solutions, events, exclusive offers, and more!</p>
                         <form action="/">
-                            <div>
+                            <div class="flex flex-col">
                                 <label class="font-bold Mulish-bold text-[14px] text-white text-left" for="email">Email</label>
                                 <input class="rounded-md border-2 border-black py-2 text-black Mulish-regular" type="email" name="email" required>
                                 <button type="submit" class="px-4 py-2 font-bold Mulish-bold text-[14px] text-white text-left">Submit</button>
