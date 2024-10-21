@@ -24,99 +24,20 @@
                     </div>
                 </div>
                 <div class="lg:col-span-3 col-span-6">
-                    <div>
-                        <p class="text-lg font-black pb-3">Links</p>
-                        <ul>
-                            <li class="sm:text-[0.75rem] text-sm font-light mb-2">
-                                <a>
-                                    Customer Portal
-                                </a>
-                            </li>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Status
-                                </a>
-                            </li>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Host2Media Blog
-                                </a>
-                            </li>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Knowladge Base
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="lg:col-span-3 col-span-6">
                 </div>
                 <div class="lg:col-span-3 col-span-6">
                     <div>
-                        <p class="text-lg font-black pb-3">Products</p>
-                        <ul>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Website Hosting
-                                </a>
-                            </li>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Domain name
-                                </a>
-                            </li>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    VPS
-                                </a>
-                            </li>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Professional Email
-                                </a>
-                            </li>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Dev Services
-                                </a>
-                            </li>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Reseller & Affiliate Program
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="lg:col-span-3 col-span-6">
-                    <div>
-                        <p class="text-lg font-black pb-3">Legal</p>
-                        <ul>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Terms Of Service
-                                </a>
-                            </li>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Privacy Policy
-                                </a>
-                            </li>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Cookie Settings
-                                </a>
-                            </li>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Acceptable Use Policy
-                                </a>
-                            </li>
-                            <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                <a>
-                                    Report Abuse
-                                </a>
-                            </li>
-                        </ul>
+                        <h4 class="font-black Mulish-Black text-[18px] text-white pb-3">Sign up for our newsletter</h4>
+                        <p class="text-base Mulish-light text-white pb-5">Subscribe to our newsletter to stay informed about the latest Host2Media solutions, events, exclusive offers, and more!</p>
+                        <form action="/">
+                            <div>
+                                <label class="font-bold Mulish-bold text-[14px] text-white text-left" for="email">Email</label>
+                                <input class="rounded-md border-1 border-black" type="email" name="email" required>
+                                <button type="submit" class="px-4 py-2 font-bold Mulish-bold text-[14px] text-white text-left">Submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
