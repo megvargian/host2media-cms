@@ -15,7 +15,7 @@ get_header();
             <div class="border-custom"></div>
         </div>
         <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
-            <div class="col-span-4 bg-[#FFF9F9] sm:p-5 p-3 rounded-[10px] text-left">
+            <div class="col-span-4 bg-[#FFF9F9] rounded-[10px] text-left">
                 <div class="sm:pb-10 pb-5">
                 <img
                     class="w-full"
@@ -32,7 +32,7 @@ get_header();
                     In Dedicated Server, Cloud Hybrid,
                 </p>
             </div>
-            <div class="col-span-4 bg-[#FFF9F9] sm:p-5 p-3 rounded-[10px] text-left">
+            <div class="col-span-4 bg-[#FFF9F9] rounded-[10px] text-left">
                 <div class="sm:pb-10 pb-5">
                 <img
                     class="w-full"
@@ -49,7 +49,7 @@ get_header();
                     In Dedicated Server, Cloud Hybrid,
                 </p>
             </div>
-            <div class="col-span-4 bg-[#FFF9F9] sm:p-5 p-3 rounded-[10px] text-left">
+            <div class="col-span-4 bg-[#FFF9F9] rounded-[10px] text-left">
                 <div class="sm:pb-10 pb-5">
                     <img
                         class="w-full"
@@ -72,7 +72,7 @@ get_header();
             <div class="border-custom"></div>
         </div>
         <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
-            <div class="col-span-6 bg-[#FFF9F9] sm:p-5 p-3 rounded-[10px] flex">
+            <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <div class="block text-left">
                     <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
                     <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
@@ -89,7 +89,7 @@ get_header();
                     alt="dedicated-server"
                 />
             </div>
-            <div class="col-span-6 bg-[#FFF9F9] sm:p-5 p-3 rounded-[10px] flex">
+            <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <div class="block text-left">
                     <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
                     <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
@@ -106,7 +106,7 @@ get_header();
                     alt="dedicated-server"
                 />
             </div>
-            <div class="col-span-6 bg-[#FFF9F9] sm:p-5 p-3 rounded-[10px] flex">
+            <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <div class="block text-left">
                     <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
                     <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
@@ -123,7 +123,7 @@ get_header();
                     alt="dedicated-server"
                 />
             </div>
-            <div class="col-span-6 bg-[#FFF9F9] sm:p-5 p-3 rounded-[10px] flex">
+            <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <div class="block text-left">
                     <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
                     <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
@@ -140,7 +140,7 @@ get_header();
                     alt="dedicated-server"
                 />
             </div>
-            <div class="col-span-6 bg-[#FFF9F9] sm:p-5 p-3 rounded-[10px] flex">
+            <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <div class="block text-left">
                     <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
                     <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
@@ -157,7 +157,7 @@ get_header();
                     alt="dedicated-server"
                 />
             </div>
-            <div class="col-span-6 bg-[#FFF9F9] sm:p-5 p-3 rounded-[10px] flex">
+            <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <div class="block text-left">
                     <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
                     <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
