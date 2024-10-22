@@ -385,5 +385,7 @@ overflow: visible;
 /* blog page */
 .custom-single-blog:hover{
 	background-color: #5564AD !important;
+}
+.custom-single-blog:hover p{
 	color: #fff !important;
 }
