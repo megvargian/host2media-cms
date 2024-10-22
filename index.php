@@ -37,38 +37,46 @@ get_header();
                 </a>
             </div>
             <div class="col-span-4 bg-[#FFF9F9] rounded-[10px] text-left">
-                <div class="sm:pb-10 pb-5">
-                <img
-                    class="w-full"
-                    src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg.png"
-                    alt="dedicated-server"
-                />
-                </div>
-                <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
-                <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
-                <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
-                    7, September 2024
-                </p>
-                <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
-                    In Dedicated Server, Cloud Hybrid,
-                </p>
+               <a href="#" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
+                    <div class="sm:pb-10 pb-5">
+                        <img
+                            class="w-full"
+                            src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg.png"
+                            alt="dedicated-server"
+                        />
+                    </div>
+                    <div class="px-4">
+                        <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
+                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
+                        <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
+                            7, September 2024
+                        </p>
+                        <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
+                            In Dedicated Server, Cloud Hybrid,
+                        </p>
+                    </div>
+                </a>
             </div>
             <div class="col-span-4 bg-[#FFF9F9] rounded-[10px] text-left">
-                <div class="sm:pb-10 pb-5">
-                    <img
-                        class="w-full"
-                        src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg.png"
-                        alt="dedicated-server"
-                    />
-                </div>
-                <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
-                <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
-                <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
-                    7, September 2024
-                </p>
-                <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
-                    In Dedicated Server, Cloud Hybrid,
-                </p>
+               <a href="#" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
+                    <div class="sm:pb-10 pb-5">
+                        <img
+                            class="w-full"
+                            src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg.png"
+                            alt="dedicated-server"
+                        />
+                    </div>
+                    <div class="px-4">
+                        <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
+                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
+                        <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
+                            7, September 2024
+                        </p>
+                        <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
+                            In Dedicated Server, Cloud Hybrid,
+                        </p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="flex py-5">
@@ -77,21 +85,23 @@ get_header();
         </div>
         <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
             <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
-                <div class="block text-left">
-                    <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
-                    <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
-                    <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
-                        7, September 2024
-                    </p>
-                    <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
-                        In Dedicated Server, Cloud Hybrid,
-                    </p>
-                </div>
-                <img
-                    class="w-full"
-                    src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
-                    alt="dedicated-server"
-                />
+                <a href="#" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
+                    <div class="block text-left px-4">
+                        <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
+                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
+                        <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
+                            7, September 2024
+                        </p>
+                        <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
+                            In Dedicated Server, Cloud Hybrid,
+                        </p>
+                    </div>
+                    <img
+                        class="w-full"
+                        src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
+                        alt="dedicated-server"
+                    />
+                </a>
             </div>
             <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <div class="block text-left">
