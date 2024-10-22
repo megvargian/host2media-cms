@@ -16,7 +16,7 @@ get_header();
         </div>
         <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
             <div class="col-span-4 bg-[#FFF9F9] rounded-[10px] text-left">
-               <a href="#" class="bg-[#FFF9F9] custom-single-blog block h-full">
+               <a href="#" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
                     <div class="sm:pb-10 pb-5">
                         <img
                             class="w-full"
