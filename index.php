@@ -24,14 +24,16 @@ get_header();
                             alt="dedicated-server"
                         />
                     </div>
-                    <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
-                    <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
-                    <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
-                        7, September 2024
-                    </p>
-                    <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
-                        In Dedicated Server, Cloud Hybrid,
-                    </p>
+                    <div class="px-4">
+                        <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
+                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
+                        <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
+                            7, September 2024
+                        </p>
+                        <p class="mb-3 text-[#5564AD] Mulish-light text-[13px] block">
+                            In Dedicated Server, Cloud Hybrid,
+                        </p>
+                    </div>
                 </a>
             </div>
             <div class="col-span-4 bg-[#FFF9F9] rounded-[10px] text-left">
