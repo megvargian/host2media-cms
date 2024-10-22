@@ -784,10 +784,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.hover\:bg-\[\#5564AD\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(85 100 173 / var(--tw-bg-opacity));
-}
 @media (min-width: 640px) {
 
   .sm\:mx-0 {
