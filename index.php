@@ -85,7 +85,7 @@ get_header();
         </div>
         <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
             <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
-                <a href="#" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
+                <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 text-[20px]">What Is a Dedicated Server? Understanding the Fundamentals</p>
                         <p class="text-[#0F132A] Mulish-Regular pb-4 text-[20px]">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
