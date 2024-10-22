@@ -88,7 +88,7 @@ get_header();
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">What Is a Dedicated Server? Understanding the Fundamentals</p>
-                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-lg">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
+                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             7, September 2024
                         </p>
@@ -107,7 +107,7 @@ get_header();
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">What Is a Dedicated Server? Understanding the Fundamentals</p>
-                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-lg">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
+                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             7, September 2024
                         </p>
@@ -126,7 +126,7 @@ get_header();
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">What Is a Dedicated Server? Understanding the Fundamentals</p>
-                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-lg">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
+                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             7, September 2024
                         </p>
@@ -145,7 +145,7 @@ get_header();
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">What Is a Dedicated Server? Understanding the Fundamentals</p>
-                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-lg">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
+                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             7, September 2024
                         </p>
@@ -164,7 +164,7 @@ get_header();
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">What Is a Dedicated Server? Understanding the Fundamentals</p>
-                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-lg">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
+                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             7, September 2024
                         </p>
@@ -183,7 +183,7 @@ get_header();
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">What Is a Dedicated Server? Understanding the Fundamentals</p>
-                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-lg">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
+                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             7, September 2024
                         </p>
