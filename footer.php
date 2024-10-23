@@ -13,7 +13,7 @@
     <div class="container mx-auto">
         <footer>
             <div class="grid grid-cols-12 lg:gap-12 gap-5 text-white sm:mx-0 mx-5">
-                <div class="lg:col-span-3 col-span-6">
+                <div class="lg:col-span-3 col-span-12">
                     <div class="lg:pl-10">
                         <img class="mb-3 sm:w-[75px] sm:h-[43px] w-[50px] h-[29px]" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/footer-logo.svg" alt="logo">
                         <p class="text-[0.5rem] font-light Mulish-light mb-2">Host2Media <br /> Makdesi 2034 1111 <br /> Hamra Beirut 07</p>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="lg:col-span-3 col-span-6 sm:flex hidden">
                 </div>
-                <div class="lg:col-span-3 col-span-6">
+                <div class="lg:col-span-3 col-span-12">
                     <div>
                         <h4 class="font-black Mulish-Black text-[18px] text-white pb-3">Sign up for our newsletter</h4>
                         <p class="text-base Mulish-light text-white pb-5">Subscribe to our newsletter to stay informed about the latest Host2Media solutions, events, exclusive offers, and more!</p>
