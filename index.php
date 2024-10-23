@@ -188,7 +188,7 @@ get_header();
                         </p>
                     </div>
                     <img
-                        class="w-full sm:block hidden"
+                        class="w-full md:block hidden"
                         src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
                         alt="dedicated-server"
                     />
@@ -207,7 +207,7 @@ get_header();
                         </p>
                     </div>
                     <img
-                        class="w-full sm:block hidden"
+                        class="w-full md:block hidden"
                         src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
                         alt="dedicated-server"
                     />
@@ -226,7 +226,7 @@ get_header();
                         </p>
                     </div>
                     <img
-                        class="w-full sm:block hidden"
+                        class="w-full md:block hidden"
                         src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
                         alt="dedicated-server"
                     />
@@ -245,7 +245,7 @@ get_header();
                         </p>
                     </div>
                     <img
-                        class="w-full sm:block hidden"
+                        class="w-full md:block hidden"
                         src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
                         alt="dedicated-server"
                     />
@@ -264,7 +264,7 @@ get_header();
                         </p>
                     </div>
                     <img
-                        class="w-full sm:block hidden"
+                        class="w-full md:block hidden"
                         src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
                         alt="dedicated-server"
                     />
@@ -283,7 +283,7 @@ get_header();
                         </p>
                     </div>
                     <img
-                        class="w-full sm:block hidden"
+                        class="w-full md:block hidden"
                         src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
                         alt="dedicated-server"
                     />
