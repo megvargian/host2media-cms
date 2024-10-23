@@ -79,7 +79,7 @@ get_header();
                 </a>
             </div>
         </div>
-        <div class="relative lg:mx-0 mx-5 md:hidden block">
+        <div class="relative lg:mx-0 mx-5 md:hidden block pb-5">
             <div class="swiper mainSwiper md:hidden flex">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
