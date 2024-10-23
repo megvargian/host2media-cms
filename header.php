@@ -26,7 +26,7 @@
 	<div class="w-full">
     <header>
       <nav>
-        <div class="w-full py-3 bg-[#5564ad]">
+        <div class="w-full py-3 bg-[#FEFEFE]">
           <div class="grid grid-cols-12 gap-5">
             <div class="col-span-6 hidden lg:block"></div>
             <div class="col-span-12 lg:col-span-6">
