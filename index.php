@@ -10,7 +10,7 @@ get_header();
 ?>
 <section class="bg-[#FEFEFE]">
     <div class="container mx-auto">
-        <div class="flex py-5">
+        <div class="flex py-5 lg:mx-0 mx-5">
             <h3 class="text-black sm:text-[1.25rem] text-xs Mulish-SemiBold font-bold" style="white-space: nowrap;">New Posts</h3>
             <div class="border-custom"></div>
         </div>
@@ -79,7 +79,7 @@ get_header();
                 </a>
             </div>
         </div>
-        <div class="relative">
+        <div class="relative lg:mx-0 mx-5">
             <div class="swiper mainSwiper md:hidden flex">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -178,7 +178,7 @@ get_header();
             <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
-                        <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">What Is a Dedicated Server? Understanding the Fundamentals</p>
+                        <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
                         <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             7, September 2024
@@ -197,7 +197,7 @@ get_header();
             <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
-                        <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">What Is a Dedicated Server? Understanding the Fundamentals</p>
+                        <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
                         <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             7, September 2024
@@ -216,7 +216,7 @@ get_header();
             <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
-                        <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">What Is a Dedicated Server? Understanding the Fundamentals</p>
+                        <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
                         <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             7, September 2024
@@ -235,7 +235,7 @@ get_header();
             <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
-                        <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">What Is a Dedicated Server? Understanding the Fundamentals</p>
+                        <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
                         <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             7, September 2024
@@ -254,7 +254,7 @@ get_header();
             <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
-                        <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">What Is a Dedicated Server? Understanding the Fundamentals</p>
+                        <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
                         <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             7, September 2024
@@ -273,7 +273,7 @@ get_header();
             <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
-                        <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">What Is a Dedicated Server? Understanding the Fundamentals</p>
+                        <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
                         <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             7, September 2024
@@ -290,7 +290,7 @@ get_header();
                 </a>
             </div>
         </div>
-        <div class="text-left pb-16">
+        <div class="text-left pb-16 lg:mx-0 mx-5">
             <button class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold py-4 px-8 Mulish-ExtraBold">
                 Load More
             </button>

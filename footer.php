@@ -23,9 +23,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="lg:col-span-3 col-span-6">
+                <div class="lg:col-span-3 col-span-6 sm:flex hidden">
                 </div>
-                <div class="lg:col-span-3 col-span-6">
+                <div class="lg:col-span-3 col-span-6 sm:flex hidden">
                 </div>
                 <div class="lg:col-span-3 col-span-6">
                     <div>
