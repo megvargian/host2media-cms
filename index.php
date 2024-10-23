@@ -170,8 +170,8 @@ get_header();
             </div>
             <div class="swiper-pagination"></div>
         </div>
-        <div class="flex py-5">
-            <h3 class="text-black text-[1.25rem] Mulish-SemiBold font-bold w-[100px]" style="white-space: nowrap;">Old Posts</h3>
+        <div class="flex py-5 lg:mx-0 mx-5">
+            <h3 class="text-black sm:text-[1.25rem] text-xs Mulish-SemiBold font-bold w-[100px]" style="white-space: nowrap;">Old Posts</h3>
             <div class="border-custom"></div>
         </div>
         <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
