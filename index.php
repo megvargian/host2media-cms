@@ -79,7 +79,7 @@ get_header();
                 </a>
             </div>
         </div>
-        <div class="relative lg:mx-0 mx-5">
+        <div class="relative lg:mx-0 mx-5 md:hidden block">
             <div class="swiper mainSwiper md:hidden flex">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -188,7 +188,7 @@ get_header();
                         </p>
                     </div>
                     <img
-                        class="w-full md:block hidden"
+                        class="w-full lg:block hidden"
                         src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
                         alt="dedicated-server"
                     />
@@ -207,7 +207,7 @@ get_header();
                         </p>
                     </div>
                     <img
-                        class="w-full md:block hidden"
+                        class="w-full lg:block hidden"
                         src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
                         alt="dedicated-server"
                     />
@@ -226,7 +226,7 @@ get_header();
                         </p>
                     </div>
                     <img
-                        class="w-full md:block hidden"
+                        class="w-full lg:block hidden"
                         src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
                         alt="dedicated-server"
                     />
@@ -245,7 +245,7 @@ get_header();
                         </p>
                     </div>
                     <img
-                        class="w-full md:block hidden"
+                        class="w-full lg:block hidden"
                         src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
                         alt="dedicated-server"
                     />
@@ -264,7 +264,7 @@ get_header();
                         </p>
                     </div>
                     <img
-                        class="w-full md:block hidden"
+                        class="w-full lg:block hidden"
                         src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
                         alt="dedicated-server"
                     />
@@ -283,7 +283,7 @@ get_header();
                         </p>
                     </div>
                     <img
-                        class="w-full md:block hidden"
+                        class="w-full lg:block hidden"
                         src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
                         alt="dedicated-server"
                     />
