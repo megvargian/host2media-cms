@@ -79,7 +79,7 @@
           <li>
             <form action="/">
               <div class="relative">
-                <input type="text" required class="border rounded Mulish-light text-base py-3 py-5 w-100" placeholder="Search for a topic...">
+                <input type="text" required class="border rounded Mulish-light text-base px-2 py-3 w-100" placeholder="Search for a topic...">
                 <button type="submit" class="absolute right-0">
                   <img class="w-6 h-6" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/search.svg" alt="search">
                 </button>
