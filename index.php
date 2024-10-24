@@ -175,7 +175,7 @@ get_header();
             <div class="border-custom"></div>
         </div>
         <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
-            <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
+            <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
@@ -194,7 +194,7 @@ get_header();
                     />
                 </a>
             </div>
-            <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
+            <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
@@ -213,7 +213,7 @@ get_header();
                     />
                 </a>
             </div>
-            <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
+            <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
@@ -232,7 +232,7 @@ get_header();
                     />
                 </a>
             </div>
-            <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
+            <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
@@ -251,7 +251,7 @@ get_header();
                     />
                 </a>
             </div>
-            <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
+            <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
@@ -270,7 +270,7 @@ get_header();
                     />
                 </a>
             </div>
-            <div class="col-span-6 bg-[#FFF9F9] rounded-[10px] flex">
+            <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
