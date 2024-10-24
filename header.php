@@ -61,27 +61,27 @@
         class="py-5 flex flex-row justify-center items-center lg:px-16 md:px-16 sm:px-8"
       >
         <ul class="basic-2/4 lg:flex items-center hidden text-sm xl:text-lg">
-          <li class="mx-2">
+          <li class="mx-3">
             <a class="" href="#"> Services </a>
           </li>
-          <li class="mx-2">
+          <li class="mx-3">
             <a class="" href="#"> Customers </a>
           </li>
-          <li class="mx-2">
+          <li class="mx-3">
             <a class="" href="#"> Industries </a>
           </li>
-          <li class="mx-2">
+          <li class="mx-3">
             <a class="" href="#"> Security </a>
           </li>
-          <li class="mx-2">
+          <li class="mx-3">
             <a class="" href="#"> Community </a>
           </li>
-          <li>
+          <li class="mx-3">
             <form action="/">
               <div class="relative">
                 <input type="text" required class="border rounded Mulish-light text-base px-2 py-3 w-full pr-8" placeholder="Search for a topic...">
                 <button type="submit" class="absolute right-0 top-[25%]">
-                  <img class="w-8 h-full" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/search-black.png" alt="search">
+                  <img class="w-full" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/search-black.png" alt="search">
                 </button>
               </div>
             </form>
