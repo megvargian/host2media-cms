@@ -544,8 +544,8 @@ video {
 .right-\[6px\] {
   right: 6px;
 }
-.top-\[24\%\] {
-  top: 24%;
+.top-\[20\%\] {
+  top: 20%;
 }
 .col-span-12 {
   grid-column: span 12 / span 12;
