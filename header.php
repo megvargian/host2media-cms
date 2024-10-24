@@ -23,10 +23,10 @@
 
 <div id="page" class="site main_page_wrapper">
 	<div id="content" class="site-content">
-	<div class="w-full">
+	<div class="w-full bg-[#FEFEFE]">
     <header>
       <nav>
-        <div class="w-full py-3 bg-[#FEFEFE]">
+        <div class="w-full py-3 bg-[#5564AD]">
           <div class="grid grid-cols-12 gap-5">
             <div class="col-span-6 hidden lg:block"></div>
             <div class="col-span-12 lg:col-span-6">
@@ -60,7 +60,7 @@
       <nav
         class="py-5 flex flex-row justify-center items-center lg:px-16 md:px-16 sm:px-8"
       >
-        <ul class="basic-2/4 lg:flex hidden text-sm xl:text-lg">
+        <ul class="basic-2/4 lg:flex items-center hidden text-sm xl:text-lg">
           <li class="mx-2">
             <a class="" href="#"> Services </a>
           </li>
