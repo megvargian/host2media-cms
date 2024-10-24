@@ -541,11 +541,11 @@ video {
 .relative {
   position: relative;
 }
-.right-0 {
-  right: 0px;
+.right-\[6px\] {
+  right: 6px;
 }
-.top-\[25\%\] {
-  top: 25%;
+.top-\[20\%\] {
+  top: 20%;
 }
 .col-span-12 {
   grid-column: span 12 / span 12;

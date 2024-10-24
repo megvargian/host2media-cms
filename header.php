@@ -79,9 +79,9 @@
           <li class="mx-3">
             <form action="/">
               <div class="relative">
-                <input type="text" required class="border rounded Mulish-light text-base px-2 py-3 w-full pr-8" placeholder="Search for a topic...">
-                <button type="submit" class="absolute right-0 top-[25%]">
-                  <img class="w-full" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/search-black.svg" alt="search">
+                <input type="text" required class="border rounded Mulish-light text-sm px-2 py-3 w-full pr-8" placeholder="Search for a topic...">
+                <button type="submit" class="absolute right-[6px] top-[20%]">
+                  <img class="w-6" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/search-black.svg" alt="search">
                 </button>
               </div>
             </form>
