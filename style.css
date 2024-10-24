@@ -405,3 +405,6 @@ overflow: visible;
 .swiper-pagination{
 	z-index: 9 !important;
 }
+.custom-search-form:focus-visible{
+	outline: none;
+}
