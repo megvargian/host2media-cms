@@ -58,29 +58,33 @@
         </div>
       </nav>
       <nav
-        class="py-5 flex flex-row justify-start items-center lg:px-16 md:px-16 sm:px-8"
+        class="py-5 flex flex-row justify-center items-center lg:px-16 md:px-16 sm:px-8"
       >
-        <NuxtLink to="/">
-            <img class="lg:block hidden h-12 w-18" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/logo.svg" />
-        </NuxtLink>
-        <ul class="basic-2/4 lg:flex hidden text-sm xl:text-lg pl-8">
+        <ul class="basic-2/4 lg:flex hidden text-sm xl:text-lg">
           <li class="mx-2">
-            <a class="" href="#"> Domains </a>
+            <a class="" href="#"> Services </a>
           </li>
           <li class="mx-2">
-            <a class="" href="#"> Website Hosting </a>
+            <a class="" href="#"> Customers </a>
           </li>
           <li class="mx-2">
-            <a class="" href="#"> Professional Email </a>
+            <a class="" href="#"> Industries </a>
           </li>
           <li class="mx-2">
-            <a class="" href="#"> Reseller Program </a>
+            <a class="" href="#"> Security </a>
           </li>
           <li class="mx-2">
-            <a class="" href="#"> Dev Serices </a>
+            <a class="" href="#"> Community </a>
           </li>
-          <li class="mx-2">
-            <a class="" href="https://hostmedia.com/contact-us"> Contact us </a>
+          <li>
+            <form action="/">
+              <div class="relative">
+                <input type="text" required class="border rounded Mulish-light text-base py-3 py-5 w-100" placeholder="Search for a topic...">
+                <button type="submit" class="absolute right-0">
+                  <img class="w-6 h-6" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/search.svg" alt="search">
+                </button>
+              </div>
+            </form>
           </li>
         </ul>
         <button
@@ -103,22 +107,19 @@
                       <img class="w-[5rem] mx-auto" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/h2m-mob.png" alt="host2media">
                   </a>
                   <a class="block my-3 page_font animated_menu_el" href="#">
-                    <div class="menu_item text-white">Domains</div>
+                    <div class="menu_item text-white">Services</div>
                   </a>
                   <a class="block my-3 page_font animated_menu_el" href="#">
-                    <div class="menu_item text-white">Website Hosting</div>
+                    <div class="menu_item text-white">Customers</div>
                   </a>
                   <a class="block my-3 page_font animated_menu_el" href="#">
-                    <div class="menu_item text-white">Professional Email</div>
+                    <div class="menu_item text-white">Industries</div>
                   </a>
                   <a class="block my-3 page_font animated_menu_el" href="#">
-                    <div class="menu_item text-white">Reseller Program</div>
+                    <div class="menu_item text-white">Security</div>
                   </a>
                   <a class="block my-3 page_font animated_menu_el" href="#">
-                    <div class="menu_item text-white">Dev Serices</div>
-                  </a>
-                  <a class="block my-3 page_font animated_menu_el">
-                    <div class="menu_item text-white">Contact US</div>
+                    <div class="menu_item text-white">Community</div>
                   </a>
               </div>
             </div>
