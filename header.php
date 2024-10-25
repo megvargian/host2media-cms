@@ -28,10 +28,10 @@
       <nav>
         <div class="w-full py-3 bg-[#5564AD]">
           <div class="grid grid-cols-12 gap-5">
-            <div class="col-span-6 hidden lg:block flex justify-center">
+            <div class="col-span-6 hidden lg:block">
               <img class="w-28" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/blog-logo.png" alt="host2mediaBlog">
             </div>
-            <div class="col-span-12 lg:col-span-6 flex items-center">
+            <div class="col-span-12 lg:col-span-6">
               <ul
                 class="flex lg:justify-end justify-center items-center text-white"
               >
