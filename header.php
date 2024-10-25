@@ -27,34 +27,38 @@
     <header>
       <nav>
         <div class="w-full py-3 bg-[#5564AD]">
-          <div class="grid grid-cols-12 gap-5">
-            <div class="col-span-6 hidden lg:block">
-              <img class="w-28" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/blog-logo.png" alt="host2mediaBlog">
-            </div>
-            <div class="col-span-12 lg:col-span-6">
-              <ul
-                class="flex lg:justify-end justify-center items-center text-white"
-              >
-                <li class="lg:hidden block sm:mr-8 mr-2">
-                  <NuxtLink to="/">
-                    <img class="h-6 w-12" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/logo.svg" />
-                  </NuxtLink>
-                </li>
-                <li class="mx-2 Mulish-light text-[0.75rem]">
-                  <a href="https://host2media.com"> Host2Media.com </a>
-                </li>
-                <li class="mx-2 Mulish-light text-[0.75rem]">
-                  <a href="#"> Knowladge Base </a>
-                </li>
-                <li class="mx-2 Mulish-light text-[0.75rem]">
-                  <a href="#"> Status </a>
-                </li>
-                <li
-                  class="mx-2 Mulish-light font-semibold text-[0.75rem] lg:pr-32"
+          <div class="container mx-auto">
+            <div class="grid grid-cols-12 gap-5">
+              <div class="col-span-6 hidden lg:block">
+                <a href="<?php echo get_home_url(); ?>">
+                  <img class="w-28" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/blog-logo.png" alt="host2mediaBlog">
+                </a>
+              </div>
+              <!-- <div class="col-span-12 lg:col-span-6">
+                <ul
+                  class="flex lg:justify-end justify-center items-center text-white"
                 >
-                  <a href="#"> Customer Portal </a>
-                </li>
-              </ul>
+                  <li class="lg:hidden block sm:mr-8 mr-2">
+                    <NuxtLink to="/">
+                      <img class="h-6 w-12" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/logo.svg" />
+                    </NuxtLink>
+                  </li>
+                  <li class="mx-2 Mulish-light text-[0.75rem]">
+                    <a href="https://host2media.com"> Host2Media.com </a>
+                  </li>
+                  <li class="mx-2 Mulish-light text-[0.75rem]">
+                    <a href="#"> Knowladge Base </a>
+                  </li>
+                  <li class="mx-2 Mulish-light text-[0.75rem]">
+                    <a href="#"> Status </a>
+                  </li>
+                  <li
+                    class="mx-2 Mulish-light font-semibold text-[0.75rem] lg:pr-32"
+                  >
+                    <a href="#"> Customer Portal </a>
+                  </li>
+                </ul>
+              </div> -->
             </div>
           </div>
         </div>
