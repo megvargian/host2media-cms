@@ -26,12 +26,12 @@
 	<div class="w-full bg-[#FEFEFE]">
     <header>
       <nav>
-        <div class="w-full py-3 bg-[#5564AD]">
+        <div class="w-full py-2 bg-[#5564AD]">
           <div class="container mx-auto">
             <div class="grid grid-cols-12 gap-5">
               <div class="col-span-6 hidden lg:block">
                 <a href="<?php echo get_home_url(); ?>">
-                  <img class="w-28" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/blog-logo.png" alt="host2mediaBlog">
+                  <img class="w-24" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/blog-logo.png" alt="host2mediaBlog">
                 </a>
               </div>
               <!-- <div class="col-span-12 lg:col-span-6">
