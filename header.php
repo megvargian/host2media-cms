@@ -34,7 +34,7 @@
                   <img class="w-24" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/blog-logo.png" alt="host2mediaBlog">
                 </a>
               </div>
-              <div class="col-span-12 lg:col-span-6">
+              <div class="col-span-12 lg:col-span-6 flex items-center">
                 <ul
                   class="flex lg:justify-end justify-center items-center text-white"
                 >
