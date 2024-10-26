@@ -36,7 +36,7 @@
               </div>
               <div class="col-span-6 flex items-center justify-end">
                 <ul
-                  class="flex lg:justify-end justify-center items-center text-white"
+                  class="flex justify-end items-center text-white"
                 >
                   <li class="mx-2 Mulish-light text-[0.75rem]">
                     <a href="https://host2media.com"> Host2Media.com </a>
