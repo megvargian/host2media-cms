@@ -46,17 +46,6 @@
                   <li class="mx-2 Mulish-light text-[0.75rem]">
                     <a href="https://host2media.com"> Host2Media.com </a>
                   </li>
-                  <li class="mx-2 Mulish-light text-[0.75rem]">
-                    <a href="#"> Knowladge Base </a>
-                  </li>
-                  <li class="mx-2 Mulish-light text-[0.75rem]">
-                    <a href="#"> Status </a>
-                  </li>
-                  <li
-                    class="mx-2 Mulish-light font-semibold text-[0.75rem] lg:pr-32"
-                  >
-                    <a href="#"> Customer Portal </a>
-                  </li>
                 </ul>
               </div>
             </div>
