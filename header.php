@@ -45,7 +45,7 @@
               </div>
             </div>
           </div>
-          <div class="hidden lg:flex justify-end items-center absolute top-[1.3%] right-[1.3%]">
+          <div class="hidden lg:flex justify-end items-center absolute top-[1.9%] right-[1.5%]">
             <a class="Mulish-light text-[0.75rem] text-white" href="https://host2media.com"> Host2Media.com </a>
           </div>
         </div>
