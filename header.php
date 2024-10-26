@@ -39,9 +39,23 @@
                   class="flex lg:justify-end justify-center items-center text-white"
                 >
                   <li class="lg:hidden block sm:mr-8 mr-2">
-                    <a to="/">
-                      <img class="h-6 w-12" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/logo.svg" />
+                    <a href="<?php echo get_home_url(); ?>">
+                      <img class="w-12" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/blog-logo.png" alt="host2mediaBlog" />
                     </a>
+                  </li>
+                  <li class="mx-2 Mulish-light text-[0.75rem]">
+                    <a href="https://host2media.com"> Host2Media.com </a>
+                  </li>
+                  <li class="mx-2 Mulish-light text-[0.75rem]">
+                    <a href="#"> Knowladge Base </a>
+                  </li>
+                  <li class="mx-2 Mulish-light text-[0.75rem]">
+                    <a href="#"> Status </a>
+                  </li>
+                  <li
+                    class="mx-2 Mulish-light font-semibold text-[0.75rem] lg:pr-32"
+                  >
+                    <a href="#"> Customer Portal </a>
                   </li>
                 </ul>
               </div>
