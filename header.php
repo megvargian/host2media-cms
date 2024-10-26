@@ -29,20 +29,15 @@
         <div class="w-full py-2 bg-[#5564AD]">
           <div class="container mx-auto">
             <div class="grid grid-cols-12 gap-5">
-              <div class="col-span-6 hidden lg:block">
+              <div class="col-span-6">
                 <a href="<?php echo get_home_url(); ?>">
                   <img class="w-24" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/blog-logo.png" alt="host2mediaBlog">
                 </a>
               </div>
-              <div class="col-span-12 lg:col-span-6 flex items-center justify-end">
+              <div class="col-span-6 flex items-center justify-end">
                 <ul
                   class="flex lg:justify-end justify-center items-center text-white"
                 >
-                  <li class="lg:hidden block sm:mr-8 mr-2">
-                    <a href="<?php echo get_home_url(); ?>">
-                      <img class="w-12" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/blog-logo.png" alt="host2mediaBlog" />
-                    </a>
-                  </li>
                   <li class="mx-2 Mulish-light text-[0.75rem]">
                     <a href="https://host2media.com"> Host2Media.com </a>
                   </li>
