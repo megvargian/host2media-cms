@@ -34,7 +34,7 @@
                   <img class="w-24" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/blog-logo.png" alt="host2mediaBlog">
                 </a>
               </div>
-              <div class="col-span-6 flex items-center justify-end">
+              <div class="col-span-6 flex lg:hidden items-center justify-end">
                 <ul
                   class="flex justify-end items-center text-white"
                 >
@@ -44,6 +44,9 @@
                 </ul>
               </div>
             </div>
+          </div>
+          <div class="hidden lg:flex justify-end items-center">
+            <a href="https://host2media.com"> Host2Media.com </a>
           </div>
         </div>
       </nav>
