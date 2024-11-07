@@ -26,7 +26,7 @@ $post_title = urlencode(get_the_title(get_the_ID()));
             <div class="grid grid-cols-12 gap-10 py-4 lg:mx-0 mx-5">
                 <div class="col-span-9 text-left content-main">
                     <?php the_content(); ?>
-                    <div class="py-14 flex justify-between max-w-3xl">
+                    <div class="py-14 flex justify-between max-w-3xl mx-auto">
                         <a class="text-[#5564AD]" href="#">
                             « The Future of IT Infrastructure ...
                         </a>
@@ -60,7 +60,7 @@ $post_title = urlencode(get_the_title(get_the_ID()));
                         </ul>
                     </div>
                     <div class="common-posts pt-32">
-                        <h3 class="leading-tight text-[24px] font-bold text-left mb-4">More similar topics</h3>
+                        <h3 class="leading-tight text-[24px] Mulish-light font-bold text-left mb-4">More similar topics</h3>
                         <a class="pb-4 mb-4 border-b border-[#CBD1EE] text-[#5564AD] block" href="#">
                             Public Cloud: Everything You Should Know
                         </a>

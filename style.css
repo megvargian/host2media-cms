@@ -102,7 +102,7 @@ p{
 }
 @media (min-width: 1536px) {
     .container {
-        max-width: 1300px !important;
+        max-width: 1350px !important;
     }
 }
 @media(max-width: 1024px){
