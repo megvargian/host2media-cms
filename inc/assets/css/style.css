@@ -541,11 +541,23 @@ video {
 .relative {
   position: relative;
 }
+.bottom-0 {
+  bottom: 0px;
+}
+.left-0 {
+  left: 0px;
+}
+.right-0 {
+  right: 0px;
+}
 .right-\[1\.5\%\] {
   right: 1.5%;
 }
 .right-\[6px\] {
   right: 6px;
+}
+.top-0 {
+  top: 0px;
 }
 .top-\[1\.9\%\] {
   top: 1.9%;
@@ -612,9 +624,6 @@ video {
 .hidden {
   display: none;
 }
-.h-6 {
-  height: 1.5rem;
-}
 .h-\[100dvh\] {
   height: 100dvh;
 }
@@ -623,6 +632,9 @@ video {
 }
 .h-full {
   height: 100%;
+}
+.w-16 {
+  width: 4rem;
 }
 .w-24 {
   width: 6rem;
