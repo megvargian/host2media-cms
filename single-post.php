@@ -16,7 +16,7 @@ $title = get_the_title(get_the_ID());
     <section>
         <img class="w-full" src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="<?php echo $title; ?>">
     </section>
-    <section class="py-5">
+    <section class="py-5 pt-32">
         <div class="container mx-auto">
             <div class="pb-4">
                 <h1 class="leading-tight sm:text-5xl md:text-4xl text-[36px] font-bold text-left"><?php echo $title; ?></h1>
