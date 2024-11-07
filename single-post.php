@@ -23,7 +23,7 @@ $title = get_the_title(get_the_ID());
                 <p class="text-[14px]">Posted on: <span class="text-[#5564AD]">Sebtember 30, 2024</span></p>
                 <p class="text-[14px]">by: <span class="text-[#5564AD]">Nadim Younes, CEO</span></p>
             </div>
-            <div class="grid grid-cols-12 gap-5 py-4 lg:mx-0 mx-5">
+            <div class="grid grid-cols-12 gap-10 py-4 lg:mx-0 mx-5">
                 <div class="col-span-9 text-left content-main">
                     <?php the_content(); ?>
                 </div>
@@ -31,8 +31,8 @@ $title = get_the_title(get_the_ID());
                     <div class="social-links">
                         <ul>
                             <li class="block relative" style="width: fit-content;">
-                                <img class="w-16" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/share-arrow.svg" alt="share-arrow">
-                                <p class="text-white font-black text[12px] absolute right-0 bottom-0 left-0 top-0">share</p>
+                                <img class="w-20" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/share-arrow.svg" alt="share-arrow">
+                                <p class="text-white font-black text-[15px] absolute right-[27%] bottom-0 top-0">share</p>
                             </li>
                         </ul>
                     </div>
