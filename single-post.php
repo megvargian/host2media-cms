@@ -26,6 +26,14 @@ $post_title = urlencode(get_the_title(get_the_ID()));
             <div class="grid grid-cols-12 gap-10 py-4 lg:mx-0 mx-5">
                 <div class="col-span-9 text-left content-main">
                     <?php the_content(); ?>
+                    <div class="pt-10 flex justify-between">
+                        <a class="text-[#5564AD]" href="#">
+                            « The Future of IT Infrastructure ...
+                        </a>
+                        <a class="text-[#5564AD]" href="#">
+                            A comparative guide: File, Block, and... »
+                        </a>
+                    </div>
                 </div>
                 <div class="col-span-3">
                     <div class="social-links">
@@ -50,6 +58,24 @@ $post_title = urlencode(get_the_title(get_the_ID()));
                                 </a>
                             </li>
                         </ul>
+                    </div>
+                    <div class="common-posts pt-32">
+                        <h3 class="leading-tight text-[24px] font-bold text-left mb-4">More similar topics</h3>
+                        <a class="pb-3 mb-3 border-1 border-[#CBD1EE] text-[#5564AD]" href="#">
+                            Public Cloud: Everything You Should Know
+                        </a>
+                        <a class="pb-3 mb-3 border-1 border-[#CBD1EE] text-[#5564AD]" href="#">
+                            Public Cloud: Everything You Should Know
+                        </a>
+                        <a class="pb-3 mb-3 border-1 border-[#CBD1EE] text-[#5564AD]" href="#">
+                            Public Cloud: Everything You Should Know
+                        </a>
+                        <a class="pb-3 mb-3 border-1 border-[#CBD1EE] text-[#5564AD]" href="#">
+                            Public Cloud: Everything You Should Know
+                        </a>
+                        <a class="pb-3 mb-3 border-1 border-[#CBD1EE] text-[#5564AD]" href="#">
+                            Public Cloud: Everything You Should Know
+                        </a>
                     </div>
                 </div>
             </div>
