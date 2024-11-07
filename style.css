@@ -408,3 +408,6 @@ overflow: visible;
 .custom-search-form:focus-visible{
 	outline: none;
 }
+.content-main p{
+	font-size: 1.25rem
+}
