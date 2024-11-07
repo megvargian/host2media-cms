@@ -28,7 +28,13 @@ $title = get_the_title(get_the_ID());
                     <?php the_content(); ?>
                 </div>
                 <div class="col-span-3">
-                    test
+                    <div class="social-links">
+                        <ul>
+                            <li class="block">
+                                <img class="w-6 h-6" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/share-arrow.svg" alt="share-arrow">
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

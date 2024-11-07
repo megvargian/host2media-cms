@@ -612,6 +612,9 @@ video {
 .hidden {
   display: none;
 }
+.h-6 {
+  height: 1.5rem;
+}
 .h-\[100dvh\] {
   height: 100dvh;
 }
