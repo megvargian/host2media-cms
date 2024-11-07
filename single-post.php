@@ -19,7 +19,7 @@ $title = get_the_title(get_the_ID());
     <section class="py-5 pt-32">
         <div class="container mx-auto">
             <div class="pb-4">
-                <h1 class="leading-tight sm:text-5xl md:text-4xl text-[36px] font-bold text-left"><?php echo $title; ?></h1>
+                <h1 class="leading-tight sm:text-5xl md:text-4xl text-[36px] font-bold text-left max-w-2xl"><?php echo $title; ?></h1>
                 <p class="text-[14px]">Posted on: <span class="text-[#5564AD]">Sebtember 30, 2024</span></p>
                 <p class="text-[14px]">by: <span class="text-[#5564AD]">Nadim Younes, CEO</span></p>
             </div>
