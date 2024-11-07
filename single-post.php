@@ -29,22 +29,22 @@ $post_title = urlencode(get_the_title(get_the_ID()));
                 </div>
                 <div class="col-span-3">
                     <div class="social-links">
-                        <ul>
-                            <li class="block relative mb-4" style="width: fit-content;">
+                        <ul class="w-fit">
+                            <li class="block relative mb-4 w-fit">
                                 <img class="w-20" src="<?php echo get_template_directory_uri(); ?>/inc/assets/icons/share-arrow.svg" alt="share-arrow">
                                 <p class="text-white font-black text-[15px] absolute right-[27%] bottom-0 top-0">share</p>
                             </li>
-                            <li>
+                            <li class="mb-3 flex justify-center">
                                 <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $post_url; ?>" target="_blank" rel="nofollow">
                                     <img class="w-8 h-8" src="<?php echo get_template_directory_uri() ?>/inc/assets/icons/facebook.svg" alt="facebook">
                                 </a>
                             </li>
-                            <li>
+                            <li class="mb-3 flex justify-center">
                                 <a href="https://twitter.com/intent/tweet?url=<?php echo $post_url; ?>&text=<?php echo $post_title; ?>" target="_blank" rel="nofollow">
                                     <img class="w-8 h-8" src="<?php echo get_template_directory_uri() ?>/inc/assets/icons/x.svg" alt="x">
                                 </a>
                             </li>
-                            <li>
+                            <li class="mb-3 flex justify-center">
                                 <a href="https://www.linkedin.com/sharing/share-offsite/?url=<?php echo $post_url; ?>" target="_blank" rel="nofollow">
                                     <img class="w-8 h-8" src="<?php echo get_template_directory_uri() ?>/inc/assets/icons/linkedin.svg" alt="linkedin">
                                 </a>
