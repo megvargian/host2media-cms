@@ -712,6 +712,9 @@ video {
 .border-2 {
   border-width: 2px;
 }
+.border-b {
+  border-bottom-width: 1px;
+}
 .border-\[\#CBD1EE\] {
   --tw-border-opacity: 1;
   border-color: rgb(203 209 238 / var(--tw-border-opacity));
