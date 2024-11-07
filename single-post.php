@@ -19,10 +19,12 @@ $title = get_the_title(get_the_ID());
     <section class="py-5">
         <div class="container mx-auto">
             <div class="pb-4">
-                <h1><?php echo $title; ?></h1>
+                <h1 class="leading-tight sm:text-5xl md:text-4xl text-[36px] font-bold text-left"><?php echo $title; ?></h1>
+                <p class="text-[14px]">Posted on: <span class="text-[##5564AD]">Sebtember 30, 2024</span></p>
+                <p class="text-[14px]">by: <span class="text-[##5564AD]">Nadim Younes, CEO</span></p>
             </div>
-            <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
-                <div class="col-span-9 bg-[#FFF9F9] rounded-[10px] text-left">
+            <div class="grid grid-cols-12 gap-5 py-4 lg:mx-0 mx-5">
+                <div class="col-span-9 text-left">
                     <?php the_content(); ?>
                 </div>
                 <div class="col-span-3">

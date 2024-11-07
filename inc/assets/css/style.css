@@ -774,6 +774,9 @@ video {
 .text-\[18px\] {
   font-size: 18px;
 }
+.text-\[36px\] {
+  font-size: 36px;
+}
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -798,6 +801,9 @@ video {
 }
 .font-light {
   font-weight: 300;
+}
+.leading-tight {
+  line-height: 1.25;
 }
 .text-\[\#0F132A\] {
   --tw-text-opacity: 1;
@@ -847,6 +853,11 @@ video {
     padding-bottom: 2.5rem;
   }
 
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .sm\:text-\[1\.25rem\] {
     font-size: 1.25rem;
   }
@@ -869,6 +880,11 @@ video {
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 @media (min-width: 1024px) {
