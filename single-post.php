@@ -10,7 +10,7 @@
 get_header();
 $post_title = urlencode(get_the_title(get_the_ID()));
 $post_image = wp_get_attachment_url(get_post_thumbnail_id(get_the_ID()));
-$title = the_title();
+$title = get_the_title(get_the_ID());
 ?>
 <div class="single-article-page bg-[#FEFEFE]">
     <section>
