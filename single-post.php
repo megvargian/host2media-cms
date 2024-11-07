@@ -18,13 +18,15 @@ $title = get_the_title(get_the_ID());
     </section>
     <section class="py-5">
         <div class="container mx-auto">
-            <div class="grid grid-cols-12 py-10">
-                <div class="col-span-9 text-left">
-                    <h1><?php echo $title; ?></h1>
+            <div class="pb-4">
+                <h1><?php echo $title; ?></h1>
+            </div>
+            <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
+                <div class="col-span-9 bg-[#FFF9F9] rounded-[10px] text-left">
                     <?php the_content(); ?>
                 </div>
                 <div class="col-span-3">
-
+                    test
                 </div>
             </div>
         </div>
