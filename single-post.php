@@ -19,7 +19,7 @@ $post_title = urlencode(get_the_title(get_the_ID()));
     <section class="py-5 md:pt-32 sm:pt-16">
         <div class="container mx-auto">
             <div class="pb-4 lg:mx-0 mx-5">
-                <h1 class="leading-tight sm:text-5xl md:text-4xl text-[2.25rem] font-bold text-left max-w-2xl"><?php echo $title; ?></h1>
+                <h1 class="leading-tight sm:text-5xl md:text-4xl text-[1.5rem] font-bold text-left max-w-2xl"><?php echo $title; ?></h1>
                 <p class="text-[14px] pt-3">Posted on: <span class="text-[#5564AD]"><?php echo get_the_date('F j, Y'); ?></span></p>
                 <p class="text-[14px]">by: <span class="text-[#5564AD]">Nadim Younes, CEO</span></p>
             </div>
