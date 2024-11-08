@@ -73,14 +73,15 @@ $query = new WP_Query($args);
                         while ( $query -> have_posts() ) :  $query -> the_post();
                         $post_id = get_the_ID();
                         $title = get_the_title($post_id);
-                        $get_post_category = get_the_category(get_the_ID());
+                        $get_post_category = get_the_category($post_id);
+                        $get_all_custom_fields = get_fields();
                     ?>
                     <div class="swiper-slide">
                         <a href="#" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
                             <div class="sm:pb-10 pb-5">
                                 <img
                                     class="w-full rounded-t-[10px]"
-                                    src="<?php echo get_the_post_thumbnail_url($post_id); ?>"
+                                    src="<?php echo $get_all_custom_fields['homepage_image_for_top_3']; ?>"
                                     alt="<?php echo $title; ?>"
                                 />
                             </div>
@@ -96,9 +97,9 @@ $query = new WP_Query($args);
                                 </p>
                                 <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                                     <?php
-                                        $all_cats = '';
+                                        $all_cats = "";
                                         foreach ($get_post_category as $cat) {
-                                            $all_cats = $all_cats . $cat -> name .','
+                                            $all_cats = $all_cats . $cat -> name .",";
                                         }
                                         echo $all_cats;
                                     ?>
