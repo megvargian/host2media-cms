@@ -16,7 +16,7 @@ $post_title = urlencode(get_the_title(get_the_ID()));
     <section>
         <img class="w-full" src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="<?php echo $title; ?>">
     </section>
-    <section class="py-5 pt-32">
+    <section class="py-5 md:pt-32 sm:pt-16">
         <div class="container mx-auto">
             <div class="pb-4 lg:mx-0 mx-5">
                 <h1 class="leading-tight sm:text-5xl md:text-4xl text-[2.25rem] font-bold text-left max-w-2xl"><?php echo $title; ?></h1>
