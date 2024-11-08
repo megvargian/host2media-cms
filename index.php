@@ -13,6 +13,13 @@ $args = array(
     'order' => 'DESC',
 );
 $query = new WP_Query($args);
+
+$args_offest = array(
+    'posts_per_page' => 9,
+    'offset' => 3,  // Skip the latest 3 posts
+    'order' => 'DESC',
+);
+$query_offset =  new WP_Query($args_offest);
 ?>
 <section class="bg-[#FEFEFE]">
     <div class="container mx-auto">
@@ -122,7 +129,49 @@ $query = new WP_Query($args);
             <div class="border-custom"></div>
         </div>
         <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
-            <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
+            <?php
+             if ( $query_offset -> have_posts() ) :
+                while ( $query_offset -> have_posts() ) :  $query_offset -> the_post();
+                $post_id = get_the_ID();
+                $title = get_the_title($post_id);
+                $get_post_category = get_the_category(get_the_ID());
+                $get_all_custom_fields = get_fields();
+            ?>
+                <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
+                    <a href="<?php echo get_permalink($post_id); ?>" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
+                        <div class="block text-left px-4">
+                            <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">
+                                <?php echo $title; ?>
+                            </p>
+                            <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">
+                                <?php echo get_the_excerpt($post_id); ?>
+                            </p>
+                            <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
+                                <?php echo get_the_date('F j, Y', $post_id); ?>
+                            </p>
+                            <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
+                            <?php
+                                $all_cats = '';
+                                foreach ($get_post_category as $cat) {
+                                    $all_cats = $all_cats . $cat -> name .',';
+                                }
+                                echo $all_cats;
+                                ?>
+                            </p>
+                        </div>
+                        <img
+                            class="w-full lg:block hidden"
+                            src="<?php echo $get_all_custom_fields['homepage_image']; ?>"
+                            alt="<?php echo $title; ?>"
+                        />
+                    </a>
+                </div>
+                <?php
+                endwhile;
+                wp_reset_postdata();
+            endif;
+            ?>
+            <!-- <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
                 <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                     <div class="block text-left px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
@@ -216,26 +265,7 @@ $query = new WP_Query($args);
                         alt="dedicated-server"
                     />
                 </a>
-            </div>
-            <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
-                <a href="#" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
-                    <div class="block text-left px-4">
-                        <p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">What Is a Dedicated Server? Understanding the Fundamentals</p>
-                        <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">Understanding the FundamentalsMuch like many organizations, you probably opted for cloud computing when you first launched your web application, database, or mail server...</p>
-                        <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
-                            7, September 2024
-                        </p>
-                        <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
-                            In Dedicated Server, Cloud Hybrid,
-                        </p>
-                    </div>
-                    <img
-                        class="w-full lg:block hidden"
-                        src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/dedicated-server-bg-2.png"
-                        alt="dedicated-server"
-                    />
-                </a>
-            </div>
+            </div> -->
         </div>
         <div class="text-left pb-16 lg:mx-0 mx-5">
             <button class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold py-4 px-8 Mulish-ExtraBold">
