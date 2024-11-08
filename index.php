@@ -7,12 +7,12 @@ get_header();
 // while ( have_posts() ) : the_post();
 //     the_content();
 // endwhile;
-$args = array(
-    'post_type' => 'post',
-    'posts_per_page' => 3,
-    'order' => 'DESC',
-);
-$query = new WP_Query($args);
+// $args = array(
+//     'post_type' => 'post',
+//     'posts_per_page' => 3,
+//     'order' => 'DESC'
+// );
+// $query = new WP_Query($args);
 ?>
 <section class="bg-[#FEFEFE]">
     <div class="container mx-auto">
@@ -22,36 +22,36 @@ $query = new WP_Query($args);
         </div>
         <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5 md:flex hidden">
             <?php
-             if ( $query -> have_posts() ) :
-                while ( $query -> have_posts() ) :  $query -> the_post();
-                $post_id = get_the_ID();
-                $title = get_the_title($post_id);
+            //  if ( $query -> have_posts() ) :
+            //     while ( $query -> have_posts() ) :  $query -> the_post();
+            //     $post_id = get_the_ID();
+            //     $title = get_the_title($post_id);
             ?>
-            <div class="col-span-4 bg-[#FFF9F9] rounded-[10px] text-left">
-                <a href="<?php echo get_permalink($post_id);?>" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
+            <!-- <div class="col-span-4 bg-[#FFF9F9] rounded-[10px] text-left">
+                <a href="<?php //echo get_permalink($post_id);?>" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
                     <div class="sm:pb-10 pb-5">
                         <img
                             class="w-full"
-                            src="<?php echo get_the_post_thumbnail_url($post_id); ?>"
-                            alt="<?php echo $title; ?>"
+                            src="<?php //echo get_the_post_thumbnail_url($post_id); ?>"
+                            alt="<?php //echo $title; ?>"
                         />
                     </div>
                     <div class="px-4">
                         <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">
-                            <?php echo $title; ?>
+                            <?php //echo $title; ?>
                         </p>
                         <p class="text-[#0F132A] Mulish-Regular pb-4 text-base">
-                            <?php echo get_the_excerpt($post_id);?>
+                            <?php //echo get_the_excerpt($post_id); ?>
                         </p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
-                            <?php echo get_the_date('F j, Y', $post_id); ?>
+                            <?php //echo get_the_date('F j, Y', $post_id); ?>
                         </p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             In Dedicated Server, Cloud Hybrid,
                         </p>
                     </div>
                 </a>
-            </div>
+            </div> -->
             <!-- <div class="col-span-4 bg-[#FFF9F9] rounded-[10px] text-left">
                <a href="#" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
                     <div class="sm:pb-10 pb-5">
@@ -95,10 +95,10 @@ $query = new WP_Query($args);
                 </a>
             </div> -->
             <?php
-                    endif;
-                endwhile;
-                wp_reset_postdata();
-            endif;
+            //         endif;
+            //     endwhile;
+            //     wp_reset_postdata();
+            // endif;
             ?>
         </div>
         <div class="relative lg:mx-0 mx-5 md:hidden block pb-5">
