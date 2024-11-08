@@ -685,9 +685,6 @@ video {
 .justify-between {
   justify-content: space-between;
 }
-.gap-10 {
-  gap: 2.5rem;
-}
 .gap-5 {
   gap: 1.25rem;
 }
@@ -932,6 +929,14 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:max-w-3xl {
+    max-width: 48rem;
+  }
+
+  .md\:gap-10 {
+    gap: 2.5rem;
   }
 
   .md\:px-16 {

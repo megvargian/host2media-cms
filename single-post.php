@@ -23,7 +23,7 @@ $post_title = urlencode(get_the_title(get_the_ID()));
                 <p class="text-[14px] pt-3">Posted on: <span class="text-[#5564AD]"><?php echo get_the_date('F j, Y'); ?></span></p>
                 <p class="text-[14px]">by: <span class="text-[#5564AD]">Nadim Younes, CEO</span></p>
             </div>
-            <div class="grid grid-cols-12 gap-10 py-4 lg:mx-0 mx-5">
+            <div class="grid grid-cols-12 md:gap-10 gap-5 py-4 lg:mx-0 mx-5">
                 <div class="md:col-span-9 col-span-12 text-left content-main">
                     <?php the_content(); ?>
                     <div class="py-14 flex justify-between max-w-3xl mx-auto md:flex hidden">
