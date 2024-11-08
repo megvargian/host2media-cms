@@ -51,7 +51,7 @@ $query = new WP_Query($args);
                             <?php
                                 $all_cats = '';
                                 foreach ($get_post_category as $cat) {
-                                    $all_cats += $cat -> name .','
+                                    $all_cats = $all_cats . $cat -> name .','
                                 }
                                 echo $all_cats;
                             ?>
@@ -98,7 +98,7 @@ $query = new WP_Query($args);
                                     <?php
                                         $all_cats = '';
                                         foreach ($get_post_category as $cat) {
-                                            $all_cats += $cat -> name .','
+                                            $all_cats = $all_cats . $cat -> name .','
                                         }
                                         echo $all_cats;
                                     ?>
