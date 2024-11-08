@@ -19,12 +19,12 @@ $post_title = urlencode(get_the_title(get_the_ID()));
     <section class="py-5 pt-32">
         <div class="container mx-auto">
             <div class="pb-4">
-                <h1 class="leading-tight sm:text-5xl md:text-4xl text-[36px] font-bold text-left max-w-2xl"><?php echo $title; ?></h1>
-                <p class="text-[14px] pt-3">Posted on: <span class="text-[#5564AD]">Sebtember 30, 2024</span></p>
+                <h1 class="leading-tight sm:text-5xl md:text-4xl text-[2.4rem] font-bold text-left max-w-2xl"><?php echo $title; ?></h1>
+                <p class="text-[14px] pt-3">Posted on: <span class="text-[#5564AD]"><?php echo get_the_date('F j, Y'); ?></span></p>
                 <p class="text-[14px]">by: <span class="text-[#5564AD]">Nadim Younes, CEO</span></p>
             </div>
             <div class="grid grid-cols-12 gap-10 py-4 lg:mx-0 mx-5">
-                <div class="col-span-9 text-left content-main">
+                <div class="md:col-span-9 col-span-12 text-left content-main">
                     <?php the_content(); ?>
                     <div class="py-14 flex justify-between max-w-3xl mx-auto">
                         <a class="text-[#5564AD]" href="#">
@@ -35,7 +35,7 @@ $post_title = urlencode(get_the_title(get_the_ID()));
                         </a>
                     </div>
                 </div>
-                <div class="col-span-3">
+                <div class="md:col-span-3 col-span-12">
                     <div class="social-links">
                         <ul class="w-fit">
                             <li class="block relative mb-4 w-fit">
