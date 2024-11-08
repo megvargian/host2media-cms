@@ -822,8 +822,8 @@ video {
 .text-\[18px\] {
   font-size: 18px;
 }
-.text-\[2\.4rem\] {
-  font-size: 2.4rem;
+.text-\[2\.25rem\] {
+  font-size: 2.25rem;
 }
 .text-\[24px\] {
   font-size: 24px;
@@ -893,6 +893,10 @@ video {
 
   .sm\:w-\[75px\] {
     width: 75px;
+  }
+
+  .sm\:gap-5 {
+    gap: 1.25rem;
   }
 
   .sm\:px-8 {
