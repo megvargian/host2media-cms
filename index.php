@@ -27,13 +27,14 @@ $query = new WP_Query($args);
                 $post_id = get_the_ID();
                 $title = get_the_title($post_id);
                 $get_post_category = get_the_category(get_the_ID());
+                $get_all_custom_fields = get_fields();
             ?>
             <div class="col-span-4 bg-[#FFF9F9] rounded-[10px] text-left">
                 <a href="<?php echo get_permalink($post_id);?>" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
                     <div class="sm:pb-10 pb-5">
                         <img
                             class="w-full rounded-t-[10px]"
-                            src="<?php echo get_the_post_thumbnail_url($post_id); ?>"
+                            src="<?php echo $get_all_custom_fields['homepage_image_for_top_3']; ?>"
                             alt="<?php echo $title; ?>"
                         />
                     </div>
@@ -77,7 +78,7 @@ $query = new WP_Query($args);
                         $get_all_custom_fields = get_fields();
                     ?>
                     <div class="swiper-slide">
-                        <a href="#" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
+                        <a href="<?php echo get_permalink($post_id); ?>" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
                             <div class="sm:pb-10 pb-5">
                                 <img
                                     class="w-full rounded-t-[10px]"
