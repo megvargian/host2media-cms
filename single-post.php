@@ -35,7 +35,7 @@ $post_title = urlencode(get_the_title(get_the_ID()));
                         </a>
                     </div>
                 </div>
-                <div class="md:col-span-3 col-span-12">
+                <div class="md:col-span-3 col-span-12 sm:pt-0 pt-4">
                     <div class="social-links">
                         <ul class="w-fit">
                             <li class="block relative mb-4 w-fit">
