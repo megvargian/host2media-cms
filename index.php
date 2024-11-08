@@ -7,12 +7,12 @@ get_header();
 // while ( have_posts() ) : the_post();
 //     the_content();
 // endwhile;
-// $args = array(
-//     'post_type' => 'post',
-//     'posts_per_page' => 3,
-//     'order' => 'DESC'
-// );
-// $query = new WP_Query($args);
+$args = array(
+    'post_type' => 'post',
+    'posts_per_page' => 3,
+    'order' => 'DESC',
+);
+$query = new WP_Query($args);
 ?>
 <section class="bg-[#FEFEFE]">
     <div class="container mx-auto">
@@ -22,10 +22,11 @@ get_header();
         </div>
         <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5 md:flex hidden">
             <?php
-            //  if ( $query -> have_posts() ) :
-            //     while ( $query -> have_posts() ) :  $query -> the_post();
-            //     $post_id = get_the_ID();
-            //     $title = get_the_title($post_id);
+             if ( $query -> have_posts() ) :
+                while ( $query -> have_posts() ) :  $query -> the_post();
+                $post_id = get_the_ID();
+                $title = get_the_title($post_id);
+                echo $post_id;
             ?>
             <!-- <div class="col-span-4 bg-[#FFF9F9] rounded-[10px] text-left">
                 <a href="<?php //echo get_permalink($post_id);?>" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
@@ -95,10 +96,10 @@ get_header();
                 </a>
             </div> -->
             <?php
-            //         endif;
-            //     endwhile;
-            //     wp_reset_postdata();
-            // endif;
+                    endif;
+                endwhile;
+                wp_reset_postdata();
+            endif;
             ?>
         </div>
         <div class="relative lg:mx-0 mx-5 md:hidden block pb-5">
