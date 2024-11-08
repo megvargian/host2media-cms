@@ -77,7 +77,7 @@ $post_title = urlencode(get_the_title(get_the_ID()));
                             Public Cloud: Everything You Should Know
                         </a>
                     </div>
-                    <div class="py-14 flex justify-between max-w-3xl mx-auto md:hidden">
+                    <div class="py-14 flex justify-between md:max-w-3xl mx-auto md:hidden">
                         <a class="text-[#5564AD]" href="#">
                             « The Future of IT Infrastructure ...
                         </a>
