@@ -48,7 +48,13 @@ $query = new WP_Query($args);
                             <?php echo get_the_date('F j, Y', $post_id); ?>
                         </p>
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
-                            <?php print_r($get_post_category); ?>
+                            <?php
+                                $all_cats = '';
+                                foreach ($get_post_category as $cat) {
+                                    $all_cats += $cat -> name .','
+                                }
+                                echo $all_cats;
+                            ?>
                         </p>
                     </div>
                 </a>
@@ -89,7 +95,13 @@ $query = new WP_Query($args);
                                     <?php echo get_the_date('F j, Y', $post_id); ?>
                                 </p>
                                 <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
-                                    <?php print_r($get_post_category); ?>
+                                    <?php
+                                        $all_cats = '';
+                                        foreach ($get_post_category as $cat) {
+                                            $all_cats += $cat -> name .','
+                                        }
+                                        echo $all_cats;
+                                    ?>
                                 </p>
                             </div>
                         </a>
