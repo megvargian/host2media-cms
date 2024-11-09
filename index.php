@@ -15,7 +15,7 @@ $args = array(
 $query = new WP_Query($args);
 
 $args_offest = array(
-    'posts_per_page' => 9,
+    'posts_per_page' => 6,
     'offset' => 3,  // Skip the latest 3 posts
     'order' => 'DESC',
 );
