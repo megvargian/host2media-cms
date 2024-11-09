@@ -32,11 +32,10 @@ if ($categories) {
 // Get the next and previous posts
 $next_post = get_next_post();
 $previous_post = get_previous_post();
-echo $previous_post;
 // Display the "Previous Post" link
 if ($previous_post) {
-    $previous_link = get_permalink($previous_post);
-    $previous_title = get_the_title($previous_post);
+    $previous_link = get_permalink($previous_post -> ID);
+    $previous_title = get_the_title($previous_post -> ID);
 } else {
     // If there is no previous post, get the latest post in the category
     $latest_post = new WP_Query(array(
@@ -53,8 +52,8 @@ if ($previous_post) {
 
 // Display the "Next Post" link
 if ($next_post) {
-    $next_link = get_permalink($next_post);
-    $next_title = get_the_title($next_post);
+    $next_link = get_permalink($next_post -> ID);
+    $next_title = get_the_title($next_post -> ID);
 } else {
     // If there is no next post, get the oldest post in the category
     $oldest_post = new WP_Query(array(
