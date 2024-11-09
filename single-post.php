@@ -32,8 +32,7 @@ if ($categories) {
 // Get the next and previous posts
 $next_post = get_next_post();
 $previous_post = get_previous_post();
-// Display the "Previous Post" link
-if ($previous_post) {
+if ($previous_post != "") {
     $previous_link = get_permalink($previous_post -> ID);
     $previous_title = get_the_title($previous_post -> ID);
 } else {
@@ -49,9 +48,7 @@ if ($previous_post) {
         wp_reset_postdata();
     }
 }
-
-// Display the "Next Post" link
-if ($next_post) {
+if ($next_post != "") {
     $next_link = get_permalink($next_post -> ID);
     $next_title = get_the_title($next_post -> ID);
 } else {
