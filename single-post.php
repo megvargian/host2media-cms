@@ -11,6 +11,24 @@ get_header();
 $title = get_the_title(get_the_ID());
 $post_url   = urlencode(get_permalink(get_the_ID()));
 $post_title = urlencode(get_the_title(get_the_ID()));
+// get realted posts
+// Get the categories of the current post
+$categories = get_the_category();
+
+if ($categories) {
+    // Get the first category ID
+    $list_category_ids = array();
+    foreach ($$categories as $cat) {
+        array_push($list_category_ids, $cat -> term_id);
+    }
+    // Define WP_Query arguments
+    $args = array(
+        'category__in'   => $list_category_ids, // Get posts in the same category
+        'post__not_in'   => array(get_the_ID()),  // Exclude the current post
+        'posts_per_page' => 5,                    // Number of related posts to display
+    );
+    $query = new WP_Query($args);
+}
 ?>
 <div class="single-article-page bg-[#FEFEFE]">
     <section>
@@ -59,24 +77,37 @@ $post_title = urlencode(get_the_title(get_the_ID()));
                             </li>
                         </ul>
                     </div>
-                    <div class="common-posts pt-32">
-                        <h3 class="leading-tight text-[24px] Mulish-light font-bold text-left mb-4">More similar topics</h3>
-                        <a class="pb-4 mb-4 border-b border-[#CBD1EE] text-[#5564AD] block" href="#">
-                            Public Cloud: Everything You Should Know
-                        </a>
-                        <a class="pb-4 mb-4 border-b border-[#CBD1EE] text-[#5564AD] block" href="#">
-                            Public Cloud: Everything You Should Know
-                        </a>
-                        <a class="pb-4 mb-4 border-b border-[#CBD1EE] text-[#5564AD] block" href="#">
-                            Public Cloud: Everything You Should Know
-                        </a>
-                        <a class="pb-4 mb-4 border-b border-[#CBD1EE] text-[#5564AD] block" href="#">
-                            Public Cloud: Everything You Should Know
-                        </a>
-                        <a class="pb-4 mb-4 border-b border-[#CBD1EE] text-[#5564AD] block" href="#">
-                            Public Cloud: Everything You Should Know
-                        </a>
-                    </div>
+                    <?php if($categories){?>
+                        <div class="common-posts pt-32">
+                            <h3 class="leading-tight text-[24px] Mulish-light font-bold text-left mb-4">More similar topics</h3>
+                            <?php
+                                if ($query->have_posts()) {
+                                    while ($query->have_posts()) {
+                                        $query->the_post();
+                                        $post_id = get_the_ID();
+                            ?>
+                                <a class="pb-4 mb-4 border-b border-[#CBD1EE] text-[#5564AD] block" href="<?php echo get_permalink($post_id); ?>">
+                                    <?php echo get_the_title($post_id); ?>
+                                </a>
+                                <!-- <a class="pb-4 mb-4 border-b border-[#CBD1EE] text-[#5564AD] block" href="#">
+                                    Public Cloud: Everything You Should Know
+                                </a>
+                                <a class="pb-4 mb-4 border-b border-[#CBD1EE] text-[#5564AD] block" href="#">
+                                    Public Cloud: Everything You Should Know
+                                </a>
+                                <a class="pb-4 mb-4 border-b border-[#CBD1EE] text-[#5564AD] block" href="#">
+                                    Public Cloud: Everything You Should Know
+                                </a>
+                                <a class="pb-4 mb-4 border-b border-[#CBD1EE] text-[#5564AD] block" href="#">
+                                    Public Cloud: Everything You Should Know
+                                </a> -->
+                            <?php
+                                    }
+                                }
+                                wp_reset_postdata();
+                            ?>
+                        </div>
+                    <?php } ?>
                     <div class="py-14 flex justify-between md:max-w-3xl mx-auto md:hidden">
                         <a class="text-[#5564AD]" href="#">
                             « The Future of IT Infrastructure ...
