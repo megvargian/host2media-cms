@@ -271,13 +271,13 @@ function search_domain_name(WP_REST_Request $request) {
 }
 
 function load_more_posts() {
-    $page = $_POST['page'];
+    $paged = isset($_POST['page']) ? intval($_POST['page']) : 2; // Start with page 2 for the next load
     $args = array(
         'post_type' 		=> 		'post',
         'posts_per_page'    => 		6,
-        'paged' 			=> 		$page,
         'order'             =>      'DESC',
-        'orderby'           =>      'date',
+		'post_status'    	=> 		'publish',
+        'offset'         	=> 		3 + (($paged - 1) * 6), // Increase offset for each page
     );
 
     $query = new WP_Query($args);

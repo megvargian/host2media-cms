@@ -11,6 +11,7 @@ $args = array(
     'post_type' => 'post',
     'posts_per_page' => 3,
     'order' => 'DESC',
+    'post_status'    => 'publish',
 );
 $query = new WP_Query($args);
 
@@ -18,6 +19,7 @@ $args_offest = array(
     'posts_per_page' => 6,
     'offset' => 3,  // Skip the latest 3 posts
     'order' => 'DESC',
+    'post_status'    => 'publish',
 );
 $query_offset =  new WP_Query($args_offest);
 ?>
