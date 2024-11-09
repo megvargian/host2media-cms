@@ -146,7 +146,7 @@ $query_offset =  new WP_Query($args_offest);
                                 <?php echo $title; ?>
                             </p>
                             <p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">
-                                <?php echo get_the_excerpt($post_id); ?>
+							    <?php echo wp_trim_words(get_the_excerpt($post_id), 55, '...'); ?>
                             </p>
                             <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                                 <?php echo get_the_date('F j, Y', $post_id); ?>

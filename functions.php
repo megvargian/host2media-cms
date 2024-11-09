@@ -281,7 +281,6 @@ function load_more_posts() {
     );
 
     $query = new WP_Query($args);
-    $count = 0;
 	if ( $query -> have_posts() ) :
 		while ( $query -> have_posts() ) :  $query -> the_post();
 			$post_id = get_the_ID();
@@ -296,7 +295,7 @@ function load_more_posts() {
 							<?php echo $title; ?>
 						</p>
 						<p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">
-							<?php echo get_the_excerpt($post_id); ?>
+							<?php echo wp_trim_words(get_the_excerpt($post_id), 55, '...'); ?>
 						</p>
 						<p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
 							<?php echo get_the_date('F j, Y', $post_id); ?>
