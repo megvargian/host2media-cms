@@ -276,7 +276,7 @@ function load_more_posts() {
         'post_type' 		=> 		'post',
         'posts_per_page'    => 		6,
         'paged' 			=> 		$page,
-        'order'             =>      'DSC',
+        'order'             =>      'DESC',
         'orderby'           =>      'date',
     );
 
