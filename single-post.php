@@ -32,12 +32,9 @@ if ($categories) {
 // Get the next and previous posts
 $next_post = get_next_post();
 $previous_post = get_previous_post();
-echo "<pre>"; print_r($previous_post -> ID); echo "</pre>";
 if ($previous_post != "") {
     $previous_link = get_permalink($previous_post -> ID);
     $previous_title = get_the_title($previous_post -> ID);
-    echo $previous_link;
-    echo $previous_title;
 } else {
     // If there is no previous post, get the latest post in the category
     $latest_post = new WP_Query(array(
@@ -83,7 +80,7 @@ if ($next_post != "") {
                 <div class="md:col-span-9 col-span-12 text-left content-main">
                     <?php the_content(); ?>
                     <div class="py-14 flex justify-between max-w-3xl mx-auto md:flex hidden">
-                        <a class="text-[#5564AD]" href="<?php $previous_link; ?>">
+                        <a class="text-[#5564AD]" href="<?php echo $previous_link; ?>">
                             « <?php echo $previous_title; ?>
                         </a>
                         <a class="text-[#5564AD]" href="<?php echo $next_link; ?>">
@@ -147,7 +144,7 @@ if ($next_post != "") {
                         </div>
                     <?php } ?>
                     <div class="py-14 flex justify-between md:max-w-3xl mx-auto md:hidden">
-                        <a class="text-[#5564AD]" href="<?php $previous_link; ?>">
+                        <a class="text-[#5564AD]" href="<?php echo $previous_link; ?>">
                             « <?php echo $previous_title; ?>
                         </a>
                         <a class="text-[#5564AD]" href="<?php echo $next_link; ?>">
