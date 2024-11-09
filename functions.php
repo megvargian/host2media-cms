@@ -278,6 +278,7 @@ function load_more_posts() {
         'paged' 			=> 		$page,
         'order'             =>      'DSC',
         'orderby'           =>      'date',
+		'offset' 			=> 		3,  // Skip the latest 3 posts
     );
 
     $query = new WP_Query($args);
