@@ -128,7 +128,7 @@ $query_offset =  new WP_Query($args_offest);
             <h3 class="text-black sm:text-[1.25rem] text-xs Mulish-SemiBold font-bold w-[100px]" style="white-space: nowrap;">Old Posts</h3>
             <div class="border-custom"></div>
         </div>
-        <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
+        <div id="post-container" class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
             <?php
              if ( $query_offset -> have_posts() ) :
                 while ( $query_offset -> have_posts() ) :  $query_offset -> the_post();
@@ -268,7 +268,7 @@ $query_offset =  new WP_Query($args_offest);
             </div> -->
         </div>
         <div class="text-left pb-16 lg:mx-0 mx-5">
-            <button class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold py-4 px-8 Mulish-ExtraBold">
+            <button id="load-more-button" class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold py-4 px-8 Mulish-ExtraBold">
                 Load More
             </button>
         </div>
@@ -276,6 +276,34 @@ $query_offset =  new WP_Query($args_offest);
 </section>
 <script>
     jQuery(document).ready(function($) {
+        var page = 2; // Set the initial page number
+        // Function to load more posts via AJAX
+        function loadMorePosts() {
+            $.ajax({
+                type: 'POST',
+                url: '<?php echo admin_url('admin-ajax.php'); ?>',
+                data: {
+                    action: 'load_more_posts',
+                    page: page,
+                },
+                success: function(response) {
+                    if (response === ''){
+                        $('#load-more-button').hide();
+                    }
+                    if (response) {
+                        $('#post-container').append(response);
+                        page++;
+                    } else {
+                        // No more posts to load
+                        $('#load-more-button').hide();
+                    }
+                },
+            });
+        }
+        // Trigger the AJAX call when the button is clicked
+        $('#load-more-button').click(function() {
+            loadMorePosts();
+        });
         var swiper = new Swiper(".mainSwiper", {
             slidesPerView: 1.5,
             spaceBetween: 20,

@@ -269,3 +269,60 @@ function search_domain_name(WP_REST_Request $request) {
         $array
     ));
 }
+
+function load_more_posts() {
+    $page = $_POST['page'];
+    $args = array(
+        'post_type' 		=> 		'post',
+        'posts_per_page'    => 		6,
+        'paged' 			=> 		$page,
+        'order'             =>      'DSC',
+        'orderby'           =>      'date',
+    );
+
+    $query = new WP_Query($args);
+    $count = 0;
+	if ( $query_offset -> have_posts() ) :
+		while ( $query_offset -> have_posts() ) :  $query_offset -> the_post();
+			$post_id = get_the_ID();
+			$title = get_the_title($post_id);
+			$get_post_category = get_the_category(get_the_ID());
+			$get_all_custom_fields = get_fields();
+           ?>
+            <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
+				<a href="<?php echo get_permalink($post_id); ?>" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
+					<div class="block text-left px-4">
+						<p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">
+							<?php echo $title; ?>
+						</p>
+						<p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">
+							<?php echo get_the_excerpt($post_id); ?>
+						</p>
+						<p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
+							<?php echo get_the_date('F j, Y', $post_id); ?>
+						</p>
+						<p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
+						<?php
+							$all_cats = '';
+							foreach ($get_post_category as $cat) {
+								$all_cats = $all_cats . $cat -> name .',';
+							}
+							echo $all_cats;
+							?>
+						</p>
+					</div>
+					<img
+						class="w-full lg:block hidden"
+						src="<?php echo $get_all_custom_fields['homepage_image']; ?>"
+						alt="<?php echo $title; ?>"
+					/>
+				</a>
+			</div>
+           <?php
+        endwhile;
+    endif;
+    wp_die();
+}
+
+add_action('wp_ajax_load_more_posts', 'load_more_posts');
+add_action('wp_ajax_nopriv_load_more_posts', 'load_more_posts');
