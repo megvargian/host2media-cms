@@ -36,6 +36,8 @@ echo "<pre>"; print_r($previous_post -> ID); echo "</pre>";
 if ($previous_post != "") {
     $previous_link = get_permalink($previous_post -> ID);
     $previous_title = get_the_title($previous_post -> ID);
+    echo $previous_link;
+    echo $previous_title;
 } else {
     // If there is no previous post, get the latest post in the category
     $latest_post = new WP_Query(array(
