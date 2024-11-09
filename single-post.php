@@ -29,6 +29,45 @@ if ($categories) {
     );
     $query = new WP_Query($args);
 }
+// Get the next and previous posts
+$next_post = get_next_post();
+$previous_post = get_previous_post();
+
+// Display the "Previous Post" link
+if ($previous_post) {
+    $previous_link = get_permalink($previous_post);
+    $previous_title = get_the_title($previous_post);
+} else {
+    // If there is no previous post, get the latest post in the category
+    $latest_post = new WP_Query(array(
+        'posts_per_page' => 1,
+        'order'          => 'DESC',
+    ));
+    if ($latest_post->have_posts()) {
+        $latest_post->the_post();
+        $previous_link = get_permalink();
+        $previous_title = get_the_title();
+        wp_reset_postdata();
+    }
+}
+
+// Display the "Next Post" link
+if ($next_post) {
+    $next_link = get_permalink($next_post);
+    $next_title = get_the_title($next_post);
+} else {
+    // If there is no next post, get the oldest post in the category
+    $oldest_post = new WP_Query(array(
+        'posts_per_page' => 1,
+        'order'          => 'ASC',
+    ));
+    if ($oldest_post->have_posts()) {
+        $oldest_post->the_post();
+        $next_link = get_permalink();
+        $next_title = get_the_title();
+        wp_reset_postdata();
+    }
+}
 ?>
 <div class="single-article-page bg-[#FEFEFE]">
     <section>
@@ -45,11 +84,11 @@ if ($categories) {
                 <div class="md:col-span-9 col-span-12 text-left content-main">
                     <?php the_content(); ?>
                     <div class="py-14 flex justify-between max-w-3xl mx-auto md:flex hidden">
-                        <a class="text-[#5564AD]" href="#">
-                            « The Future of IT Infrastructure ...
+                        <a class="text-[#5564AD]" href="<?php $previous_link; ?>">
+                            « <?php echo $previous_title; ?>
                         </a>
-                        <a class="text-[#5564AD]" href="#">
-                            A comparative guide: File, Block, and... »
+                        <a class="text-[#5564AD]" href="<?php echo $next_link; ?>">
+                            <?php echo $next_title; ?> »
                         </a>
                     </div>
                 </div>
@@ -109,11 +148,11 @@ if ($categories) {
                         </div>
                     <?php } ?>
                     <div class="py-14 flex justify-between md:max-w-3xl mx-auto md:hidden">
-                        <a class="text-[#5564AD]" href="#">
-                            « The Future of IT Infrastructure ...
+                        <a class="text-[#5564AD]" href="<?php $previous_link; ?>">
+                            « <?php echo $previous_title; ?>
                         </a>
-                        <a class="text-[#5564AD]" href="#">
-                            A comparative guide: File, Block, and... »
+                        <a class="text-[#5564AD]" href="<?php echo $next_link; ?>">
+                            <?php echo $next_title; ?> »
                         </a>
                     </div>
                 </div>
