@@ -32,7 +32,7 @@ if ($categories) {
 // Get the next and previous posts
 $next_post = get_next_post();
 $previous_post = get_previous_post();
-
+echo $previous_post;
 // Display the "Previous Post" link
 if ($previous_post) {
     $previous_link = get_permalink($previous_post);
