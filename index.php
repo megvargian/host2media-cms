@@ -132,10 +132,10 @@ $query_offset =  new WP_Query($args_offest);
             <?php
              if ( $query_offset -> have_posts() ) :
                 while ( $query_offset -> have_posts() ) :  $query_offset -> the_post();
-                $post_id = get_the_ID();
-                $title = get_the_title($post_id);
-                $get_post_category = get_the_category(get_the_ID());
-                $get_all_custom_fields = get_fields();
+                    $post_id = get_the_ID();
+                    $title = get_the_title($post_id);
+                    $get_post_category = get_the_category(get_the_ID());
+                    $get_all_custom_fields = get_fields();
             ?>
                 <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
                     <a href="<?php echo get_permalink($post_id); ?>" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">

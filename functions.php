@@ -282,8 +282,8 @@ function load_more_posts() {
 
     $query = new WP_Query($args);
     $count = 0;
-	if ( $query_offset -> have_posts() ) :
-		while ( $query_offset -> have_posts() ) :  $query_offset -> the_post();
+	if ( $query -> have_posts() ) :
+		while ( $query -> have_posts() ) :  $query -> the_post();
 			$post_id = get_the_ID();
 			$title = get_the_title($post_id);
 			$get_post_category = get_the_category(get_the_ID());
