@@ -419,7 +419,7 @@ overflow: visible;
 	.content-main p{
 		font-size: 1rem
 	}
-	.content-main strong{
+	.content-main h2 strong{
 		font-size: 1.2rem
 	}
 }
