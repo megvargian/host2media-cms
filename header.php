@@ -31,7 +31,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS,
       // See https://developers.whmcs.com/api/authentication
       'username' => '6JGrfBa0ScquoMqtQ2VepBRTCTGMQqSs',
       'password' => 'iUMv3Va1UnVfw5dkPRJqvtTWLPMOmeXi',
-      'domainid' => '1',
+      'domain' => 'test.com',
       'responsetype' => 'json',
     )
   )
