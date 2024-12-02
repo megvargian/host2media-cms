@@ -21,8 +21,44 @@
 </head>
 <body <?php body_class(); ?>>
 <?php
-get_TLD_Pricing();
-domain_register();
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, 'https://blog.host2media.com/includes/api.php');
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS,
+  http_build_query(
+    array(
+      'action' => 'DomainRegister',
+      // See https://developers.whmcs.com/api/authentication
+      'username' => '6JGrfBa0ScquoMqtQ2VepBRTCTGMQqSs',
+      'password' => 'iUMv3Va1UnVfw5dkPRJqvtTWLPMOmeXi',
+      'domainid' => '1',
+      'responsetype' => 'json',
+    )
+  )
+);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+$response = curl_exec($ch);
+echo '<pre>'; print_r($response); echo '</pre>';
+curl_close($ch);
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, 'https://blog.host2media.com/includes/api.php');
+	curl_setopt($ch, CURLOPT_POST, 1);
+	curl_setopt($ch, CURLOPT_POSTFIELDS,
+		http_build_query(
+			array(
+				'action' => 'GetTLDPricing',
+				// See https://developers.whmcs.com/api/authentication
+				'username' => '6JGrfBa0ScquoMqtQ2VepBRTCTGMQqSs',
+				'password' => 'iUMv3Va1UnVfw5dkPRJqvtTWLPMOmeXi',
+				'currencyid' => '1',
+				'responsetype' => 'json',
+			)
+		)
+	);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	$response = curl_exec($ch);
+	echo '<pre>'; print_r($response); echo '</pre>';
+	curl_close($ch);
 ?>
 <div id="page" class="site main_page_wrapper">
 	<div id="content" class="site-content">
