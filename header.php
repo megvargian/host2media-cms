@@ -21,8 +21,8 @@
 </head>
 <body <?php body_class(); ?>>
 <?php
-echo '<pre>'; print_r(get_TLD_Pricing()); echo '</pre>';
-echo '<pre>'; print_r(domain_register()); echo '</pre>';
+get_TLD_Pricing();
+domain_register();
 ?>
 <div id="page" class="site main_page_wrapper">
 	<div id="content" class="site-content">

@@ -288,6 +288,7 @@ function domain_register () {
 	);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	$response = curl_exec($ch);
+	echo '<pre>'; print_r($response); echo '</pre>';
 	curl_close($ch);
 }
 function get_TLD_Pricing(){
@@ -308,8 +309,8 @@ function get_TLD_Pricing(){
 	);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	$response = curl_exec($ch);
+	echo '<pre>'; print_r($response); echo '</pre>';
 	curl_close($ch);
-	return $response;
 }
 
 function load_more_posts() {
