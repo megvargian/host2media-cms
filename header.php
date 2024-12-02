@@ -38,7 +38,6 @@ curl_setopt($ch, CURLOPT_POSTFIELDS,
 );
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 $response = curl_exec($ch);
-echo '<pre>'; print_r($response); echo '</pre>';
 curl_close($ch);
 	// $ch = curl_init();
 	// curl_setopt($ch, CURLOPT_URL, 'https://blog.host2media.com/includes/api.php');
