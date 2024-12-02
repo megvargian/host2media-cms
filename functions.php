@@ -270,6 +270,71 @@ function search_domain_name(WP_REST_Request $request) {
     ));
 }
 
+function domain_register () {
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, 'https://my.host2media.com/includes/api.php');
+	curl_setopt($ch, CURLOPT_POST, 1);
+	curl_setopt($ch, CURLOPT_POSTFIELDS,
+	http_build_query(
+		array(
+		'action' => 'DomainRegister',
+		// See https://developers.whmcs.com/api/authentication
+		'username' => '6JGrfBa0ScquoMqtQ2VepBRTCTGMQqSs',
+		'password' => 'iUMv3Va1UnVfw5dkPRJqvtTWLPMOmeXi',
+		'domain' => 'test.com',
+		'responsetype' => 'json',
+		)
+	)
+	);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	$response = curl_exec($ch);
+	curl_close($ch);
+	return $response;
+}
+function get_TLD_Pricing(){
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, 'https://my.host2media.com/includes/api.php');
+	curl_setopt($ch, CURLOPT_POST, 1);
+	curl_setopt($ch, CURLOPT_POSTFIELDS,
+		http_build_query(
+			array(
+				'action' => 'GetTLDPricing',
+				// See https://developers.whmcs.com/api/authentication
+				'username' => '6JGrfBa0ScquoMqtQ2VepBRTCTGMQqSs',
+				'password' => 'iUMv3Va1UnVfw5dkPRJqvtTWLPMOmeXi',
+				'currencyid' => '1',
+				'responsetype' => 'json',
+			)
+		)
+	);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	$response = curl_exec($ch);
+	curl_close($ch);
+	return $response;
+}
+
+function domain_whois($domain_name){
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, 'https://my.host2media.com/includes/api.php');
+	curl_setopt($ch, CURLOPT_POST, 1);
+	curl_setopt($ch, CURLOPT_POSTFIELDS,
+		http_build_query(
+			array(
+				'action' => 'DomainWhois',
+				// See https://developers.whmcs.com/api/authentication
+				'username' => '6JGrfBa0ScquoMqtQ2VepBRTCTGMQqSs',
+				'password' => 'iUMv3Va1UnVfw5dkPRJqvtTWLPMOmeXi',
+				'domain' => $domain_name,
+				'responsetype' => 'json',
+			)
+		)
+	);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	$response = curl_exec($ch);
+	curl_close($ch);
+	return $response;
+}
+
 function load_more_posts() {
     $paged = isset($_POST['page']) ? intval($_POST['page']) : 2; // Start with page 2 for the next load
     $args = array(
