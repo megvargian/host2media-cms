@@ -311,8 +311,6 @@ function get_TLD_Pricing(){
 	curl_close($ch);
 	return $response;
 }
-echo '<pre>'; print_r(get_TLD_Pricing()); echo '</pre>';
-echo '<pre>'; print_r(domain_register()); echo '</pre>';
 
 function load_more_posts() {
     $paged = isset($_POST['page']) ? intval($_POST['page']) : 2; // Start with page 2 for the next load
