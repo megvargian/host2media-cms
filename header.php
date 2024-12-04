@@ -20,9 +20,6 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<?php
-	echo '<pre>'; print_r(domain_whois('test.com')); echo '</pre>';
-?>
 <div id="page" class="site main_page_wrapper">
 	<div id="content" class="site-content">
 	<div class="w-full bg-[#FEFEFE]">
