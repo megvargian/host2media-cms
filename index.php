@@ -57,7 +57,7 @@ $query_offset =  new WP_Query($args_offest);
                         <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
                             <?php echo get_the_date('F j, Y', $post_id); ?>
                         </p>
-                        <p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
+                        <p class="mb-1 text-[#5564AD] Mulish-light text-xs block">
                             <?php
                                 $all_cats = '';
                                 foreach ($get_post_category as $cat) {
