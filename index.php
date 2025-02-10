@@ -42,7 +42,7 @@ $query_offset =  new WP_Query($args_offest);
                 <a href="<?php echo get_permalink($post_id);?>" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
                     <div class="sm:pb-10 pb-5">
                         <img
-                            class="w-[400px] h-[200px] rounded-t-[10px]"
+                            class="w-full h-[200px] rounded-t-[10px]"
                             src="<?php echo $get_all_custom_fields['homepage_image_for_top_3']; ?>"
                             alt="<?php echo $title; ?>"
                         />
