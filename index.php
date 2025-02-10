@@ -211,7 +211,7 @@ $query_offset =  new WP_Query($args_offest);
             loadMorePosts();
         });
         var swiper = new Swiper(".mainSwiper", {
-            slidesPerView: 1.5,
+            slidesPerView: 1,
             spaceBetween: 20,
             pagination: {
                 el: '.swiper-pagination',
