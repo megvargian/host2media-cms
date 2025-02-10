@@ -393,6 +393,9 @@ overflow: visible;
 .custom-single-blog:hover p{
 	color: #fff !important;
 }
+.custom-single-blog:hover h3{
+	color: #fff !important;
+}
 .swiper-pagination-bullets.swiper-pagination-horizontal{
  	bottom: -4px !important;
 }

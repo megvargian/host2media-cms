@@ -707,6 +707,12 @@ video {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+.rounded-br-\[10px\] {
+  border-bottom-right-radius: 10px;
+}
+.rounded-tr-\[10px\] {
+  border-top-right-radius: 10px;
+}
 .border {
   border-width: 1px;
 }
@@ -980,8 +986,8 @@ video {
     line-height: 2.5rem;
   }
 
-  .md\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
+  .md\:text-\[1\.3rem\] {
+    font-size: 1.3rem;
   }
 }
 @media (min-width: 1024px) {
