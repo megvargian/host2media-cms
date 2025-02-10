@@ -618,6 +618,9 @@ video {
 .hidden {
   display: none;
 }
+.\!h-\[250px\] {
+  height: 250px !important;
+}
 .h-8 {
   height: 2rem;
 }
@@ -644,6 +647,9 @@ video {
 }
 .w-\[100px\] {
   width: 100px;
+}
+.w-\[250px\] {
+  width: 250px;
 }
 .w-\[50px\] {
   width: 50px;
@@ -972,6 +978,10 @@ video {
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1024px) {

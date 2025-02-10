@@ -142,9 +142,9 @@ $query_offset =  new WP_Query($args_offest);
                 <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
                     <a href="<?php echo get_permalink($post_id); ?>" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
                         <div class="block text-left px-4">
-                            <p class="text-[#0F132A] Mulish-bold pb-4 md:text-[1.5rem] text-lg">
+                            <h3 class="text-[#0F132A] Mulish-bold pb-4 md:text-[1.5rem] text-lg">
                                 <?php echo $title; ?>
-                            </p>
+                            </h3>
                             <p class="text-[#0F132A] Mulish-Regular text-sm">
 							    <?php echo wp_trim_words(get_the_excerpt($post_id), 25, '...'); ?>
                             </p>
@@ -162,7 +162,7 @@ $query_offset =  new WP_Query($args_offest);
                             </p>
                         </div>
                         <img
-                            class="w-[200px] h-[200px] lg:block hidden"
+                            class="w-[250px] !h-[250px] lg:block hidden"
                             src="<?php echo $get_all_custom_fields['homepage_image']; ?>"
                             alt="<?php echo $title; ?>"
                         />
