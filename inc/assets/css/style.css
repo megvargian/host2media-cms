@@ -621,11 +621,18 @@ video {
 .\!h-\[250px\] {
   height: 250px !important;
 }
+.\!h-fit {
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+}
 .h-8 {
   height: 2rem;
 }
 .h-\[100dvh\] {
   height: 100dvh;
+}
+.h-\[200px\] {
+  height: 200px;
 }
 .h-\[29px\] {
   height: 29px;
@@ -650,6 +657,9 @@ video {
 }
 .w-\[250px\] {
   width: 250px;
+}
+.w-\[400px\] {
+  width: 400px;
 }
 .w-\[50px\] {
   width: 50px;

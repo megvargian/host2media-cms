@@ -42,7 +42,7 @@ $query_offset =  new WP_Query($args_offest);
                 <a href="<?php echo get_permalink($post_id);?>" class="bg-[#FFF9F9] custom-single-blog block h-full rounded-[10px]">
                     <div class="sm:pb-10 pb-5">
                         <img
-                            class="w-full rounded-t-[10px]"
+                            class="w-[400px] h-[200px] rounded-t-[10px]"
                             src="<?php echo $get_all_custom_fields['homepage_image_for_top_3']; ?>"
                             alt="<?php echo $title; ?>"
                         />
@@ -140,7 +140,7 @@ $query_offset =  new WP_Query($args_offest);
                     $get_all_custom_fields = get_fields();
             ?>
                 <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
-                    <a href="<?php echo get_permalink($post_id); ?>" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
+                    <a href="<?php echo get_permalink($post_id); ?>" class="bg-[#FFF9F9] custom-single-blog flex !h-fit rounded-[10px]">
                         <div class="block text-left px-4">
                             <h3 class="text-[#0F132A] Mulish-bold pb-4 md:text-[1.3rem] text-lg">
                                 <?php echo $title; ?>
