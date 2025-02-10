@@ -48,7 +48,7 @@ $query_offset =  new WP_Query($args_offest);
                         />
                     </div>
                     <div class="px-4">
-                        <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl mt-2">
+                        <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">
                             <?php echo $title; ?>
                         </p>
                         <p class="text-[#0F132A] Mulish-Regular pb-4 text-base">
@@ -142,7 +142,7 @@ $query_offset =  new WP_Query($args_offest);
                 <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
                     <a href="<?php echo get_permalink($post_id); ?>" class="bg-[#FFF9F9] custom-single-blog flex !h-fit rounded-[10px]">
                         <div class="block text-left px-4">
-                            <h3 class="text-[#0F132A] Mulish-bold pb-4 md:text-[1.3rem] text-lg">
+                            <h3 class="text-[#0F132A] Mulish-bold pb-4 md:text-[1.3rem] text-lg mt-2">
                                 <?php echo $title; ?>
                             </h3>
                             <p class="text-[#0F132A] Mulish-Regular text-sm">
