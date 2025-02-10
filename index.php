@@ -48,7 +48,7 @@ $query_offset =  new WP_Query($args_offest);
                         />
                     </div>
                     <div class="px-4">
-                        <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl">
+                        <p class="text-[#0F132A] Mulish-bold pb-4 text-2xl mt-2">
                             <?php echo $title; ?>
                         </p>
                         <p class="text-[#0F132A] Mulish-Regular pb-4 text-base">
