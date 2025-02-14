@@ -353,14 +353,14 @@ function load_more_posts() {
 			$get_post_category = get_the_category(get_the_ID());
 			$get_all_custom_fields = get_fields();
            ?>
-            <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
-				<a href="<?php echo get_permalink($post_id); ?>" class="bg-[#FFF9F9] custom-single-blog flex h-full rounded-[10px]">
+             <div class="sm:col-span-6 col-span-12 bg-[#FFF9F9] rounded-[10px] flex">
+				<a href="<?php echo get_permalink($post_id); ?>" class="bg-[#FFF9F9] custom-single-blog flex !h-fit rounded-[10px]">
 					<div class="block text-left px-4">
-						<p class="text-[#0F132A] Mulish-bold pb-4 md:text-2xl text-lg">
+						<h3 class="text-[#0F132A] Mulish-bold pb-4 md:text-[1.3rem] text-lg mt-2">
 							<?php echo $title; ?>
-						</p>
-						<p class="text-[#0F132A] Mulish-Regular pb-4 text-sm">
-							<?php echo wp_trim_words(get_the_excerpt($post_id), 55, '...'); ?>
+						</h3>
+						<p class="text-[#0F132A] Mulish-Regular text-sm">
+							<?php echo wp_trim_words(get_the_excerpt($post_id), 25, '...'); ?>
 						</p>
 						<p class="mb-3 text-[#5564AD] Mulish-light text-xs block">
 							<?php echo get_the_date('F j, Y', $post_id); ?>
@@ -376,7 +376,7 @@ function load_more_posts() {
 						</p>
 					</div>
 					<img
-						class="w-full lg:block hidden"
+						class="w-[250px] !h-[250px] lg:block hidden rounded-tr-[10px] rounded-br-[10px]"
 						src="<?php echo $get_all_custom_fields['homepage_image']; ?>"
 						alt="<?php echo $title; ?>"
 					/>

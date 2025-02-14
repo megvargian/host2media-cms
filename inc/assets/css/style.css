@@ -836,14 +836,14 @@ video {
   font-size: 1.5rem;
   line-height: 2rem;
 }
-.text-\[0\.5rem\] {
-  font-size: 0.5rem;
-}
 .text-\[0\.6rem\] {
   font-size: 0.6rem;
 }
 .text-\[0\.75rem\] {
   font-size: 0.75rem;
+}
+.text-\[0\.8rem\] {
+  font-size: 0.8rem;
 }
 .text-\[14px\] {
   font-size: 14px;
@@ -987,11 +987,6 @@ video {
 
   .md\:pt-32 {
     padding-top: 8rem;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .md\:text-4xl {

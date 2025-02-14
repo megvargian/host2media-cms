@@ -16,8 +16,8 @@
                 <div class="lg:col-span-3 col-span-12">
                     <div class="lg:pl-10">
                         <img class="mb-3 sm:w-[75px] sm:h-[43px] w-[50px] h-[29px]" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/footer-logo.svg" alt="logo">
-                        <p class="text-[0.5rem] font-light Mulish-light mb-2">Host2Media <br /> Makdesi 2034 1111 <br /> Hamra Beirut 07</p>
-                        <p class="text-[0.5rem] font-light Mulish-light mb-2 pt-2">
+                        <p class="text-[0.8rem] font-light Mulish-light mb-2">Host2Media <br /> Makdesi 2034 1111 <br /> Hamra Beirut 07</p>
+                        <p class="text-[0.8rem] font-light Mulish-light mb-2 pt-2">
                             +961 3 821114 <br />
                             Office Hours: M-F,  9 am-16:30 CET
                         </p>
