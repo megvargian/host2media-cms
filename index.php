@@ -29,7 +29,7 @@ $query_offset =  new WP_Query($args_offest);
             <h3 class="text-black sm:text-[1.25rem] text-xs Mulish-SemiBold font-bold" style="white-space: nowrap;">New Posts</h3>
             <div class="border-custom"></div>
         </div>
-        <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5 md:block hidden">
+        <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5 md:grid hidden">
             <?php
              if ( $query -> have_posts() ) :
                 while ( $query -> have_posts() ) :  $query -> the_post();
